@@ -6,7 +6,9 @@ import { MATERIAL_OPTIONS } from "@/app/lib/constants";
 interface FilterBarProps {
   filters: FilterState;
   availableBrands: string[];
+  availableProductTypes: string[];
   onMaterialChange: (material: FilterState["material"]) => void;
+  onProductTypeChange: (type: string) => void;
   onBrandChange: (brand: string) => void;
   onSearchChange: (query: string) => void;
   onShowOnlyOwnedChange: (show: boolean) => void;
@@ -15,7 +17,9 @@ interface FilterBarProps {
 export function FilterBar({
   filters,
   availableBrands,
+  availableProductTypes,
   onMaterialChange,
+  onProductTypeChange,
   onBrandChange,
   onSearchChange,
   onShowOnlyOwnedChange,
@@ -32,6 +36,19 @@ export function FilterBar({
         {MATERIAL_OPTIONS.map((opt) => (
           <option key={opt} value={opt}>
             {opt === "all" ? "All Materials" : opt}
+          </option>
+        ))}
+      </select>
+
+      <select
+        value={filters.productType}
+        onChange={(e) => onProductTypeChange(e.target.value)}
+        className="rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100"
+      >
+        <option value="all">All Types</option>
+        {availableProductTypes.map((t) => (
+          <option key={t} value={t}>
+            {t}
           </option>
         ))}
       </select>

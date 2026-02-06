@@ -23,6 +23,10 @@ export interface StockEntry {
   brand: string;
   addedAt: string;
   updatedAt: string;
+  custom?: boolean;
+  customProductName?: string;
+  customColorName?: string;
+  customMaterial?: "PLA" | "PETG";
 }
 
 export interface StockData {
@@ -33,6 +37,7 @@ export interface StockData {
 export interface FilterState {
   material: "PLA" | "PETG" | "all";
   brand: string | "all";
+  productType: string | "all";
   searchQuery: string;
   showOnlyOwned: boolean;
 }

@@ -72,5 +72,85 @@ export function useFilamentStock() {
     [],
   );
 
-  return { stock, getEntry, setQuantity };
+  const addCustomEntry = useCallback(
+    (
+      productName: string,
+      colorName: string,
+      material: "PLA" | "PETG",
+      quantity: number,
+      brand: string,
+    ) => {
+      const current = getStockSnapshot();
+      const uuid = crypto.randomUUID();
+      const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+      const now = new Date().toISOString();
+      const entry: StockEntry = {
+        id: `custom::${uuid}`,
+        productSlug: slug,
+        variantSku: uuid,
+        quantity,
+        brand,
+        addedAt: now,
+        updatedAt: now,
+        custom: true,
+        customProductName: productName,
+        customColorName: colorName,
+        customMaterial: material,
+      };
+      writeStock({ ...current, entries: [...current.entries, entry] });
+    },
+    [],
+  );
+
+  const updateCustomEntry = useCallback(
+    (
+      id: string,
+      updates: Partial<
+        Pick<
+          StockEntry,
+          | "quantity"
+          | "brand"
+          | "customProductName"
+          | "customColorName"
+          | "customMaterial"
+        >
+      >,
+    ) => {
+      const current = getStockSnapshot();
+      const now = new Date().toISOString();
+
+      if (updates.quantity !== undefined && updates.quantity <= 0) {
+        writeStock({
+          ...current,
+          entries: current.entries.filter((e) => e.id !== id),
+        });
+        return;
+      }
+
+      writeStock({
+        ...current,
+        entries: current.entries.map((e) =>
+          e.id === id ? { ...e, ...updates, updatedAt: now } : e,
+        ),
+      });
+    },
+    [],
+  );
+
+  const deleteCustomEntry = useCallback((id: string) => {
+    const current = getStockSnapshot();
+    writeStock({
+      ...current,
+      entries: current.entries.filter((e) => e.id !== id),
+    });
+  }, []);
+
+  return {
+    stock,
+    getEntry,
+    setQuantity,
+    addCustomEntry,
+    updateCustomEntry,
+    deleteCustomEntry,
+  };
 }
