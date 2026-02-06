@@ -2,6 +2,20 @@
 
 A local-first web app and browser extension for tracking your Bambu Lab 3D printing filament stock. Mark how many spools you own per color variant, then see those quantities overlaid directly on the Bambu Lab store.
 
+## Screenshots
+
+### Web App 
+
+![Filament catalog](img/filament-tracker-page.png)
+
+### Stock Editor
+
+![Edit spool count](img/add-filament.png)
+
+### Store Overlay
+
+![Bambu Lab store with badges](img/bambulabstore.png)
+
 ## How It Works
 
 1. **Web app** — browse the full Bambu Lab filament catalog and set stock counts per color variant. Data is stored in your browser's localStorage.
