@@ -5,7 +5,7 @@ A local-first web app and browser extension for tracking your Bambu Lab 3D print
 ## How It Works
 
 1. **Web app** — browse the full Bambu Lab filament catalog and set stock counts per color variant. Data is stored in your browser's localStorage.
-2. **Browser extension** — syncs stock data from the web app into extension storage, then overlays your quantities on `eu.store.bambulab.com` product pages so you can see what you already own while shopping.
+2. **Browser extension** — syncs stock data from the web app into extension storage, then overlays your quantities on the Bambu Lab store (EU and US) product pages so you can see what you already own while shopping.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ npm run ext:build    # builds to chrome-extension/dist/
 1. Open `chrome://extensions` and enable **Developer mode**
 2. Click **Load unpacked** and select the `chrome-extension/dist` folder
 3. Visit <http://localhost:3001> to let the extension sync your stock data
-4. Browse `eu.store.bambulab.com` — stock badges appear on color swatches
+4. Browse the Bambu Lab store (EU and US) — stock badges appear on color swatches
 
 ### Safari Extension
 
@@ -39,7 +39,7 @@ npm run ext:build    # builds to chrome-extension/dist/
 3. Build and run the app target
 4. Enable the extension in **Safari > Settings > Extensions**
 5. Visit <http://localhost:3001> to let the extension sync your stock data
-6. Browse `eu.store.bambulab.com` — stock badges appear on color swatches
+6. Browse the Bambu Lab store (EU and US) — stock badges appear on color swatches
 
 ## Updating Filament Data
 

@@ -58,10 +58,12 @@ export interface SyncState {
   entryCount: number;
 }
 
-export const DEFAULT_PORT = 3000;
+export const DEFAULT_PORT = 3001;
 
 /** Messages sent between content scripts and the service worker */
 export type ExtensionMessage =
   | { type: "STOCK_SYNC"; stockData: StockData }
   | { type: "GET_LOOKUP" }
-  | { type: "LOOKUP_RESULT"; lookup: LookupIndex };
+  | { type: "LOOKUP_RESULT"; lookup: LookupIndex }
+  | { type: "TRIGGER_SYNC" }
+  | { type: "SYNC_RESULT"; ok: boolean };

@@ -46,7 +46,7 @@ async function handleStockSync(stockData: StockData): Promise<SyncState> {
   console.log(TAG, "Saved to chrome.storage.local");
 
   // Notify any open store tabs that stock has been updated
-  const tabs = await chrome.tabs.query({ url: "https://eu.store.bambulab.com/*/products/*" });
+  const tabs = await chrome.tabs.query({ url: "https://*.store.bambulab.com/*" });
   console.log(TAG, `Found ${tabs.length} Bambu Lab store tabs to notify`);
   for (const tab of tabs) {
     if (tab.id) {

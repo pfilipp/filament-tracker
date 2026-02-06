@@ -33,9 +33,14 @@ h1 {
   color: #22c55e;
 }
 
+.status.error {
+  color: #ef4444;
+}
+
 .btn {
   display: block;
   padding: 8px 12px;
+  border: none;
   border-radius: 6px;
   background: #22c55e;
   color: #fff;
@@ -43,11 +48,34 @@ h1 {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
   transition: background 0.15s;
+  flex: 1;
 }
 
 .btn:hover {
   background: #16a34a;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #404040;
+  color: #e5e5e5;
+}
+
+.btn-secondary:hover {
+  background: #262626;
+  border-color: #525252;
+}
+
+.btn-row {
+  display: flex;
+  gap: 8px;
 }
 
 .port-row {

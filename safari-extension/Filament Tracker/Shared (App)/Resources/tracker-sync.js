@@ -1,1 +1,73 @@
-"use strict";(()=>{var e="[FT-sync]",n="filament-tracker-stock";console.log(e,"Content script loaded on",window.location.href);function s(){let r=localStorage.getItem(n);if(!r){console.log(e,`No "${n}" key in localStorage \u2014 nothing to sync`);return}console.log(e,`Found stock data (${r.length} chars), parsing...`);try{let o=JSON.parse(r);if(o.version!==2||!Array.isArray(o.entries)){console.warn(e,"Stock data has wrong shape \u2014 version:",o.version);return}console.log(e,`Sending STOCK_SYNC with ${o.entries.length} entries to service worker`);let t={type:"STOCK_SYNC",stockData:o};chrome.runtime.sendMessage(t,a=>{chrome.runtime.lastError?console.error(e,"sendMessage failed:",chrome.runtime.lastError.message):console.log(e,"Service worker responded:",a)})}catch(o){console.error(e,"Failed to parse stock data:",o)}}s();window.addEventListener("storage",r=>{r.key===n&&(console.log(e,"localStorage changed, re-syncing..."),s())});})();
+"use strict";
+
+(() => {
+  const TAG = "[FT-sync]";
+  const STORAGE_KEY = "filament-tracker-stock";
+  const POLL_INTERVAL = 5000;
+
+  let lastDataHash = null;
+
+  console.log(TAG, "Content script loaded on", window.location.href);
+
+  function readAndSync() {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      console.log(TAG, `No "${STORAGE_KEY}" key in localStorage — nothing to sync`);
+      return;
+    }
+
+    console.log(TAG, `Found stock data (${raw.length} chars), parsing...`);
+
+    try {
+      const stockData = JSON.parse(raw);
+      if (stockData.version !== 2 || !Array.isArray(stockData.entries)) {
+        console.warn(TAG, "Stock data has wrong shape — version:", stockData.version);
+        return;
+      }
+
+      console.log(TAG, `Sending STOCK_SYNC with ${stockData.entries.length} entries to service worker`);
+      const message = { type: "STOCK_SYNC", stockData };
+      chrome.runtime.sendMessage(message, (response) => {
+        if (chrome.runtime.lastError) {
+          console.error(TAG, "sendMessage failed:", chrome.runtime.lastError.message);
+        } else {
+          lastDataHash = raw;
+          console.log(TAG, "Service worker responded:", response);
+        }
+      });
+    } catch (err) {
+      console.error(TAG, "Failed to parse stock data:", err);
+    }
+  }
+
+  // Sync on load
+  readAndSync();
+
+  // Re-sync whenever localStorage changes (from another tab/window)
+  window.addEventListener("storage", (e) => {
+    if (e.key === STORAGE_KEY) {
+      console.log(TAG, "localStorage changed, re-syncing...");
+      readAndSync();
+    }
+  });
+
+  // Poll for same-tab localStorage changes
+  setInterval(() => {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+
+    if (raw !== lastDataHash) {
+      console.log(TAG, "Polling detected change, re-syncing...");
+      readAndSync();
+    }
+  }, POLL_INTERVAL);
+
+  // Listen for TRIGGER_SYNC from popup
+  chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
+    if (message.type === "TRIGGER_SYNC") {
+      console.log(TAG, "TRIGGER_SYNC received from popup");
+      readAndSync();
+      sendResponse({ ok: true });
+    }
+  });
+})();
