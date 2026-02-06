@@ -62,3 +62,4 @@ Stock data lives in **localStorage** (web app) and **extension storage** (browse
 - Clearing browser data or uninstalling the extension will erase your stock counts
 - The web app must be open at least once after install so the extension can perform the initial sync
 - Different browsers maintain separate stock counts
+- After syncing new stock data, Bambu Lab store pages need a manual refresh for badges to update
