@@ -6,8 +6,10 @@ import type {
   FilamentVariant,
   StockEntry,
 } from "@/app/lib/types";
+import { getMaterialForSubtype } from "@/app/lib/filament-utils";
 import { useFilamentStock } from "@/app/hooks/useFilamentStock";
 import { useFilters } from "@/app/hooks/useFilters";
+import { useBrands } from "@/app/hooks/useBrands";
 import { FilterBar } from "./FilterBar";
 import { FilamentCard } from "./FilamentCard";
 import { CustomFilamentCard } from "./CustomFilamentCard";
@@ -52,9 +54,9 @@ export function FilamentGrid({ filaments }: FilamentGridProps) {
     setSearchQuery,
     setShowOnlyOwned,
     resetFilters,
-    availableBrands,
     availableProductTypes,
   } = useFilters(stock, filaments);
+  const { brands, addBrand } = useBrands();
   const [modalTarget, setModalTarget] = useState<ModalTarget>(null);
 
   const filteredGroups = useMemo(() => {
@@ -104,33 +106,31 @@ export function FilamentGrid({ filaments }: FilamentGridProps) {
     const customGroupNames: string[] = [];
 
     for (const entry of stock.entries) {
-      if (!entry.custom || !entry.customProductName || !entry.customMaterial)
-        continue;
+      if (!entry.custom || !entry.customSubtype) continue;
 
-      if (
-        filters.material !== "all" &&
-        entry.customMaterial !== filters.material
-      )
-        continue;
+      const material = getMaterialForSubtype(entry.customSubtype);
+
+      if (filters.material !== "all" && material !== filters.material) continue;
       if (
         filters.productType !== "all" &&
-        entry.customProductName !== filters.productType
+        entry.customSubtype !== filters.productType
       )
         continue;
       if (
         query &&
-        !entry.customProductName.toLowerCase().includes(query) &&
-        !(entry.customColorName ?? "").toLowerCase().includes(query)
+        !entry.customSubtype.toLowerCase().includes(query) &&
+        !(entry.customDisplayName ?? "").toLowerCase().includes(query) &&
+        !(entry.customColorTag ?? "").toLowerCase().includes(query)
       )
         continue;
       if (filters.brand !== "all" && entry.brand !== filters.brand) continue;
 
-      const name = entry.customProductName;
+      const name = entry.customSubtype;
       if (!groupMap.has(name)) {
         customGroupNames.push(name);
         groupMap.set(name, {
           groupName: name,
-          material: entry.customMaterial,
+          material,
           items: [],
         });
       }
@@ -174,11 +174,12 @@ export function FilamentGrid({ filaments }: FilamentGridProps) {
       <div className="flex flex-wrap items-center justify-between gap-4">
         <FilterBar
           filters={filters}
-          availableBrands={availableBrands}
+          brands={brands}
           availableProductTypes={availableProductTypes}
           onMaterialChange={setMaterial}
           onProductTypeChange={setProductType}
           onBrandChange={setBrand}
+          onAddBrand={addBrand}
           onSearchChange={setSearchQuery}
           onShowOnlyOwnedChange={setShowOnlyOwned}
         />
@@ -254,6 +255,8 @@ export function FilamentGrid({ filaments }: FilamentGridProps) {
             getEntry(modalTarget.product.slug, modalTarget.variant.sku)
               ?.brand ?? "Bambu Lab"
           }
+          brands={brands}
+          onAddBrand={addBrand}
           onSave={handleCatalogSave}
           onClose={() => setModalTarget(null)}
         />
@@ -262,6 +265,8 @@ export function FilamentGrid({ filaments }: FilamentGridProps) {
       {modalTarget?.kind === "custom" && (
         <CustomFilamentModal
           entry={modalTarget.entry}
+          brands={brands}
+          onAddBrand={addBrand}
           onSave={addCustomEntry}
           onUpdate={updateCustomEntry}
           onDelete={(id) => {
@@ -274,8 +279,10 @@ export function FilamentGrid({ filaments }: FilamentGridProps) {
 
       {modalTarget?.kind === "new-custom" && (
         <CustomFilamentModal
-          onSave={(productName, colorName, material, quantity, brand) => {
-            addCustomEntry(productName, colorName, material, quantity, brand);
+          brands={brands}
+          onAddBrand={addBrand}
+          onSave={(subtype, colorTag, quantity, brand, displayName) => {
+            addCustomEntry(subtype, colorTag, quantity, brand, displayName);
             setModalTarget(null);
           }}
           onClose={() => setModalTarget(null)}

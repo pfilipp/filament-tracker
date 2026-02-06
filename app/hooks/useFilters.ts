@@ -3,6 +3,7 @@
 import { useState, useCallback, useMemo } from "react";
 import type { FilterState, StockData, FilamentProduct } from "@/app/lib/types";
 import { DEFAULT_FILTER_STATE } from "@/app/lib/constants";
+import { getMaterialForSubtype } from "@/app/lib/filament-utils";
 
 export function useFilters(stock: StockData, filaments: FilamentProduct[]) {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTER_STATE);
@@ -35,11 +36,6 @@ export function useFilters(stock: StockData, filaments: FilamentProduct[]) {
 
   const resetFilters = useCallback(() => setFilters(DEFAULT_FILTER_STATE), []);
 
-  const availableBrands = useMemo(() => {
-    const brands = new Set(stock.entries.map((e) => e.brand));
-    return Array.from(brands).sort();
-  }, [stock]);
-
   const availableProductTypes = useMemo(() => {
     const types = new Set<string>();
 
@@ -50,14 +46,10 @@ export function useFilters(stock: StockData, filaments: FilamentProduct[]) {
     }
 
     for (const entry of stock.entries) {
-      if (!entry.custom || !entry.customProductName || !entry.customMaterial)
-        continue;
-      if (
-        filters.material !== "all" &&
-        entry.customMaterial !== filters.material
-      )
-        continue;
-      types.add(entry.customProductName);
+      if (!entry.custom || !entry.customSubtype) continue;
+      const material = getMaterialForSubtype(entry.customSubtype);
+      if (filters.material !== "all" && material !== filters.material) continue;
+      types.add(entry.customSubtype);
     }
 
     return Array.from(types).sort();
@@ -71,7 +63,6 @@ export function useFilters(stock: StockData, filaments: FilamentProduct[]) {
     setSearchQuery,
     setShowOnlyOwned,
     resetFilters,
-    availableBrands,
     availableProductTypes,
   };
 }

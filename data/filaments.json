@@ -11,210 +11,240 @@
         "colorName": "Jade White",
         "colorCode": "10100",
         "imagePath": "/filaments/pla-basic-filament/jade-white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2b4a62ed4c044e8f9353a6ca8f93caea/White.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2b4a62ed4c044e8f9353a6ca8f93caea/White.jpg",
+        "colorTag": "white"
       },
       {
         "sku": "42911327879387",
         "colorName": "Orange",
         "colorCode": "10300",
         "imagePath": "/filaments/pla-basic-filament/orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/de761aa5234d4fd8b05176edcaad3ee4/Orange.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/de761aa5234d4fd8b05176edcaad3ee4/Orange.jpg",
+        "colorTag": "orange"
       },
       {
         "sku": "42911327912155",
         "colorName": "Blue",
         "colorCode": "10601",
         "imagePath": "/filaments/pla-basic-filament/blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/23003aff1408442baa3476e1a1344e56/PLABasicBlue.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/23003aff1408442baa3476e1a1344e56/PLABasicBlue.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "42911327944923",
         "colorName": "Gray",
         "colorCode": "10103",
         "imagePath": "/filaments/pla-basic-filament/gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/bc18c49304864e3d8ffc75db5ab099b7/PLA-Basic_Gray.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/bc18c49304864e3d8ffc75db5ab099b7/PLA-Basic_Gray.png",
+        "colorTag": "gray"
       },
       {
         "sku": "42911327977691",
         "colorName": "Beige",
         "colorCode": "10201",
         "imagePath": "/filaments/pla-basic-filament/beige.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/e1860649e4074090a480646e0c58a7bb/Beige.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/e1860649e4074090a480646e0c58a7bb/Beige.jpg",
+        "colorTag": "cream"
       },
       {
         "sku": "42911328010459",
         "colorName": "Silver",
         "colorCode": "10102",
         "imagePath": "/filaments/pla-basic-filament/silver.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/42a0b1bbd3004a6ab6df82dfffbdef3e/Sliver.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/42a0b1bbd3004a6ab6df82dfffbdef3e/Sliver.jpg",
+        "colorTag": "silver"
       },
       {
         "sku": "42911328043227",
         "colorName": "Yellow",
         "colorCode": "10400",
         "imagePath": "/filaments/pla-basic-filament/yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/9e551c519d954245b5ac7f779f99441d/Yellow.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/9e551c519d954245b5ac7f779f99441d/Yellow.jpg",
+        "colorTag": "yellow"
       },
       {
         "sku": "42911328075995",
         "colorName": "Blue Grey",
         "colorCode": "10602",
         "imagePath": "/filaments/pla-basic-filament/blue-grey.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/10342fcd8f9845739098817b95f1750f/PLA-Basic_Blue-Gray.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/10342fcd8f9845739098817b95f1750f/PLA-Basic_Blue-Gray.png",
+        "colorTag": "gray"
       },
       {
         "sku": "42911328141531",
         "colorName": "Pink",
         "colorCode": "10203",
         "imagePath": "/filaments/pla-basic-filament/pink.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/acf1cd31f7ad49a7b444b78d18508200/Pink.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/acf1cd31f7ad49a7b444b78d18508200/Pink.jpg",
+        "colorTag": "pink"
       },
       {
         "sku": "42911328207067",
         "colorName": "Brown",
         "colorCode": "10800",
         "imagePath": "/filaments/pla-basic-filament/brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/24aa6a9d2aa8494b9d59eeb2fe49b7b5/PLA-Basic_Brown.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/24aa6a9d2aa8494b9d59eeb2fe49b7b5/PLA-Basic_Brown.png",
+        "colorTag": "brown"
       },
       {
         "sku": "42911328239835",
         "colorName": "Red",
         "colorCode": "10200",
         "imagePath": "/filaments/pla-basic-filament/red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/3b9beb37cd6d4a83bdfe61c28175c385/Red.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/3b9beb37cd6d4a83bdfe61c28175c385/Red.jpg",
+        "colorTag": "red"
       },
       {
         "sku": "43923829129435",
         "colorName": "Black",
         "colorCode": "10101",
         "imagePath": "/filaments/pla-basic-filament/black.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/19633c57e2d446428e4c8401619c6ffb/PLA-Basic_Black_29c482c8-ccd6-4559-bf2b-058f7d0d798f.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/19633c57e2d446428e4c8401619c6ffb/PLA-Basic_Black_29c482c8-ccd6-4559-bf2b-058f7d0d798f.png",
+        "colorTag": "black"
       },
       {
         "sku": "46673378607452",
         "colorName": "Bambu Green",
         "colorCode": "10501",
         "imagePath": "/filaments/pla-basic-filament/bambu-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/fd09b20d185a4f8896fe72aafd07451b/Bambu_Green.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/fd09b20d185a4f8896fe72aafd07451b/Bambu_Green.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "47794655068508",
         "colorName": "Magenta",
         "colorCode": "10202",
         "imagePath": "/filaments/pla-basic-filament/magenta.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2bad4609e2544c669ae463f360b9b1ea/Magenta.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2bad4609e2544c669ae463f360b9b1ea/Magenta.jpg",
+        "colorTag": "pink"
       },
       {
         "sku": "47794655101276",
         "colorName": "Bronze",
         "colorCode": "10801",
         "imagePath": "/filaments/pla-basic-filament/bronze.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/a410256b4aa944fc89efde75c7e3b8fc/Bronze.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/a410256b4aa944fc89efde75c7e3b8fc/Bronze.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "47794656477532",
         "colorName": "Mistletoe Green",
         "colorCode": "10502",
         "imagePath": "/filaments/pla-basic-filament/mistletoe-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/386da0a9267b40a997ace0bacae58839/2df013fd41a034aa180c1c5f641ef9c4.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/386da0a9267b40a997ace0bacae58839/2df013fd41a034aa180c1c5f641ef9c4.png",
+        "colorTag": "green"
       },
       {
         "sku": "47794656706908",
         "colorName": "Gold",
         "colorCode": "10401",
         "imagePath": "/filaments/pla-basic-filament/gold.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2bf6b62353f04971b9d272c890f10840/Gold.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2bf6b62353f04971b9d272c890f10840/Gold.jpg",
+        "colorTag": "gold"
       },
       {
         "sku": "47794657329500",
         "colorName": "Cyan",
         "colorCode": "10603",
         "imagePath": "/filaments/pla-basic-filament/cyan.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/11446178685f4cce88b141b4609121da/CMYK-Cyan-1_e332b67e-db4e-4f11-b05e-196bcf7dcad7.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/11446178685f4cce88b141b4609121da/CMYK-Cyan-1_e332b67e-db4e-4f11-b05e-196bcf7dcad7.png",
+        "colorTag": "cyan"
       },
       {
         "sku": "47794657362268",
         "colorName": "Purple",
         "colorCode": "10700",
         "imagePath": "/filaments/pla-basic-filament/purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7297bc043a904b6b9e72f7eaed6215ec/PLAPurple.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7297bc043a904b6b9e72f7eaed6215ec/PLAPurple.jpg",
+        "colorTag": "purple"
       },
       {
         "sku": "49299256148316",
         "colorName": "Light Gray",
         "colorCode": "10104",
         "imagePath": "/filaments/pla-basic-filament/light-gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/b4f66db9ca704f19b120ccccd0f41a85/plalightgray.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/b4f66db9ca704f19b120ccccd0f41a85/plalightgray.jpg",
+        "colorTag": "gray"
       },
       {
         "sku": "49299261423964",
         "colorName": "Dark Gray",
         "colorCode": "10105",
         "imagePath": "/filaments/pla-basic-filament/dark-gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/cd692f8d8f94446bbbe7ed7cbf04622b/pla_basic_dark_gray.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/cd692f8d8f94446bbbe7ed7cbf04622b/pla_basic_dark_gray.jpg",
+        "colorTag": "gray"
       },
       {
         "sku": "49636008395100",
         "colorName": "Maroon Red",
         "colorCode": "10205",
         "imagePath": "/filaments/pla-basic-filament/maroon-red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/067bad6d241a4bc088b6acb1c87d4edb/MaroonRed.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/067bad6d241a4bc088b6acb1c87d4edb/MaroonRed.jpg",
+        "colorTag": "red"
       },
       {
         "sku": "49636014031196",
         "colorName": "Sunflower Yellow",
         "colorCode": "10402",
         "imagePath": "/filaments/pla-basic-filament/sunflower-yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/1d4c7a172193440882b37ac54252563a/SunflowerYellow.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/1d4c7a172193440882b37ac54252563a/SunflowerYellow.jpg",
+        "colorTag": "yellow"
       },
       {
         "sku": "49636016783708",
         "colorName": "Turquoise",
         "colorCode": "10605",
         "imagePath": "/filaments/pla-basic-filament/turquoise.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/92f6058fa6114720b4c14864a11fe8d8/Turquoise.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/92f6058fa6114720b4c14864a11fe8d8/Turquoise.jpg",
+        "colorTag": "teal"
       },
       {
         "sku": "49636021436764",
         "colorName": "Indigo Purple",
         "colorCode": "10701",
         "imagePath": "/filaments/pla-basic-filament/indigo-purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/49d16b8778a54cdfb1ece6027487f4b0/IndigoPurple.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/49d16b8778a54cdfb1ece6027487f4b0/IndigoPurple.jpg",
+        "colorTag": "purple"
       },
       {
         "sku": "49636024353116",
         "colorName": "Bright Green",
         "colorCode": "10503",
         "imagePath": "/filaments/pla-basic-filament/bright-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/f142f0aca7d54dcb9da3d30d7beb2185/BrightGreen.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/f142f0aca7d54dcb9da3d30d7beb2185/BrightGreen.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "49636027236700",
         "colorName": "Cocoa Brown",
         "colorCode": "10802",
         "imagePath": "/filaments/pla-basic-filament/cocoa-brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/8a0656cc198c466a9c9f8e747f59a96a/CocoaBrown.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/8a0656cc198c466a9c9f8e747f59a96a/CocoaBrown.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "49636028285276",
         "colorName": "Hot Pink",
         "colorCode": "10204",
         "imagePath": "/filaments/pla-basic-filament/hot-pink.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/085592ec366e4a15b19e19fd5a1dd154/HotPink.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/085592ec366e4a15b19e19fd5a1dd154/HotPink.jpg",
+        "colorTag": "pink"
       },
       {
         "sku": "49636029006172",
         "colorName": "Cobalt Blue",
         "colorCode": "10604",
         "imagePath": "/filaments/pla-basic-filament/cobalt-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/9c64998b2097410abc07497a02198b36/CobaltBlue.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/9c64998b2097410abc07497a02198b36/CobaltBlue.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "49636029530460",
         "colorName": "Pumpkin Orange",
         "colorCode": "10301",
         "imagePath": "/filaments/pla-basic-filament/pumpkin-orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4793a9395b764dd598fbfa13544ddeb9/PumpkinOrange.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4793a9395b764dd598fbfa13544ddeb9/PumpkinOrange.jpg",
+        "colorTag": "orange"
       }
     ]
   },
@@ -230,175 +260,200 @@
         "colorName": "Matte Ivory White",
         "colorCode": "11100",
         "imagePath": "/filaments/pla-matte/matte-ivory-white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7021f0243b4948b88c27db7028831dac/Matte-Ivory-White-.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7021f0243b4948b88c27db7028831dac/Matte-Ivory-White-.png",
+        "colorTag": "white"
       },
       {
         "sku": "42996742619355",
         "colorName": "Matte Ash Gray",
         "colorCode": "11102",
         "imagePath": "/filaments/pla-matte/matte-ash-gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7cab8bed5a5c4cd3b8fd434274b82093/Matte-Ash-Grey.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7cab8bed5a5c4cd3b8fd434274b82093/Matte-Ash-Grey.png",
+        "colorTag": "gray"
       },
       {
         "sku": "42996742652123",
         "colorName": "Matte Mandarin Orange",
         "colorCode": "11300",
         "imagePath": "/filaments/pla-matte/matte-mandarin-orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4be28c77bb1a4a9fa49a74786d8b80ba/Matte-Mandarin-Orange.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4be28c77bb1a4a9fa49a74786d8b80ba/Matte-Mandarin-Orange.png",
+        "colorTag": "orange"
       },
       {
         "sku": "42996742684891",
         "colorName": "Matte Sakura Pink",
         "colorCode": "11201",
         "imagePath": "/filaments/pla-matte/matte-sakura-pink.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/f2c77bec37594472b2d2b65466b92e22/Matte-Sakura-Pink.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/f2c77bec37594472b2d2b65466b92e22/Matte-Sakura-Pink.png",
+        "colorTag": "pink"
       },
       {
         "sku": "42996742717659",
         "colorName": "Matte Lemon Yellow",
         "colorCode": "11400",
         "imagePath": "/filaments/pla-matte/matte-lemon-yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/5d308d9e41084f1b9d187805082f484a/Matte-Lemon-Yellow.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/5d308d9e41084f1b9d187805082f484a/Matte-Lemon-Yellow.png",
+        "colorTag": "yellow"
       },
       {
         "sku": "42996742750427",
         "colorName": "Matte Charcoal",
         "colorCode": "11101",
         "imagePath": "/filaments/pla-matte/matte-charcoal.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/8794ff9de5904712a56d3b37f481d34f/PLA-Matte_Charcoal.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/8794ff9de5904712a56d3b37f481d34f/PLA-Matte_Charcoal.png",
+        "colorTag": "black"
       },
       {
         "sku": "42996742783195",
         "colorName": "Matte Grass Green",
         "colorCode": "11500",
         "imagePath": "/filaments/pla-matte/matte-grass-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/d34f26d43e53471d895d0fbc2d7c54df/Matte-Grass-Green.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/d34f26d43e53471d895d0fbc2d7c54df/Matte-Grass-Green.png",
+        "colorTag": "green"
       },
       {
         "sku": "42996742815963",
         "colorName": "Matte Latte Brown",
         "colorCode": "11800",
         "imagePath": "/filaments/pla-matte/matte-latte-brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/06f67edf60a341f1a2fbf3276ca2cc86/Matte-Latte-Brown.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/06f67edf60a341f1a2fbf3276ca2cc86/Matte-Latte-Brown.png",
+        "colorTag": "brown"
       },
       {
         "sku": "42996742848731",
         "colorName": "Matte Scarlet Red",
         "colorCode": "11200",
         "imagePath": "/filaments/pla-matte/matte-scarlet-red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/fed38804b21d463eb250aeb152a28ff5/Matte-Scarlet-Red.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/fed38804b21d463eb250aeb152a28ff5/Matte-Scarlet-Red.png",
+        "colorTag": "red"
       },
       {
         "sku": "42996742881499",
         "colorName": "Matte Ice Blue",
         "colorCode": "11601",
         "imagePath": "/filaments/pla-matte/matte-ice-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/9df77f51cd8b4d9999a22d07823c4e1e/Matte-Ice-Blue.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/9df77f51cd8b4d9999a22d07823c4e1e/Matte-Ice-Blue.png",
+        "colorTag": "blue"
       },
       {
         "sku": "42996742914267",
         "colorName": "Matte Lilac purple",
         "colorCode": "11700",
         "imagePath": "/filaments/pla-matte/matte-lilac-purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/32dbf332ec9b47999d9687ecff052974/Matte-Lilac-purple.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/32dbf332ec9b47999d9687ecff052974/Matte-Lilac-purple.png",
+        "colorTag": "purple"
       },
       {
         "sku": "42996751073499",
         "colorName": "Matte Marine Blue",
         "colorCode": "11600",
         "imagePath": "/filaments/pla-matte/matte-marine-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/07d4c24b8e6f41c6be3bc35d2275ef2c/Matte-Marine-Blue.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/07d4c24b8e6f41c6be3bc35d2275ef2c/Matte-Marine-Blue.png",
+        "colorTag": "blue"
       },
       {
         "sku": "47794659164508",
         "colorName": "Matte Dark Red",
         "colorCode": "11202",
         "imagePath": "/filaments/pla-matte/matte-dark-red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/e6b3a23fbb694a2a9801a4b2e41504a0/Matte-Dark-Red.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/e6b3a23fbb694a2a9801a4b2e41504a0/Matte-Dark-Red.png",
+        "colorTag": "red"
       },
       {
         "sku": "47794659426652",
         "colorName": "Matte Dark Brown",
         "colorCode": "11801",
         "imagePath": "/filaments/pla-matte/matte-dark-brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/85c776d7a6154e4ca28979b266ed3621/Matte-Dark-Brown.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/85c776d7a6154e4ca28979b266ed3621/Matte-Dark-Brown.png",
+        "colorTag": "brown"
       },
       {
         "sku": "47794659656028",
         "colorName": "Matte Dark Green",
         "colorCode": "11501",
         "imagePath": "/filaments/pla-matte/matte-dark-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7d31e4c8ff0e49ac85cfa21d7e3bf3b3/Matte-Dark-Green.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7d31e4c8ff0e49ac85cfa21d7e3bf3b3/Matte-Dark-Green.png",
+        "colorTag": "green"
       },
       {
         "sku": "47794659688796",
         "colorName": "Matte Dark Blue",
         "colorCode": "11602",
         "imagePath": "/filaments/pla-matte/matte-dark-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/744adb541f2740e9a16ca9263b8cea46/Matte-Dark-Blue.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/744adb541f2740e9a16ca9263b8cea46/Matte-Dark-Blue.png",
+        "colorTag": "blue"
       },
       {
         "sku": "48612736401756",
         "colorName": "Matte Desert Tan",
         "colorCode": "11401",
         "imagePath": "/filaments/pla-matte/matte-desert-tan.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/5f179cbe8afb429a96180b81a3f2cc45/Matte-Desert-Tan.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/5f179cbe8afb429a96180b81a3f2cc45/Matte-Desert-Tan.png",
+        "colorTag": "cream"
       },
       {
         "sku": "53926028607836",
         "colorName": "Matte Bone White",
         "colorCode": "11103",
         "imagePath": "/filaments/pla-matte/matte-bone-white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/af6a90b958ac4ad980f3c32bab4dcfd5/7_890c24b1-12ea-47e1-908a-c8c8afb2b48c.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/af6a90b958ac4ad980f3c32bab4dcfd5/7_890c24b1-12ea-47e1-908a-c8c8afb2b48c.jpg",
+        "colorTag": "white"
       },
       {
         "sku": "53926028640604",
         "colorName": "Matte Plum",
         "colorCode": "11204",
         "imagePath": "/filaments/pla-matte/matte-plum.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/91fac5c9801748f1b037538efb32e92c/6_f72c2422-d7b7-4097-94a8-5d03ca276299.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/91fac5c9801748f1b037538efb32e92c/6_f72c2422-d7b7-4097-94a8-5d03ca276299.jpg",
+        "colorTag": "purple"
       },
       {
         "sku": "53926028673372",
         "colorName": "Matte Sky Blue",
         "colorCode": "11603",
         "imagePath": "/filaments/pla-matte/matte-sky-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2e6a1efc7acb48379d11d44b8a8b2525/4_98e0178d-1490-4ba4-81fb-a696a6a5714a.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2e6a1efc7acb48379d11d44b8a8b2525/4_98e0178d-1490-4ba4-81fb-a696a6a5714a.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "53926028706140",
         "colorName": "Matte Apple Green",
         "colorCode": "11502",
         "imagePath": "/filaments/pla-matte/matte-apple-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/56ee6a4ff72c4d1ea272b154c6a2b28c/2_29663f78-0df7-4382-b6e7-01fc2bacf724.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/56ee6a4ff72c4d1ea272b154c6a2b28c/2_29663f78-0df7-4382-b6e7-01fc2bacf724.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "53926028738908",
         "colorName": "Matte Dark Chocolate",
         "colorCode": "11802",
         "imagePath": "/filaments/pla-matte/matte-dark-chocolate.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/bfaca04755004d64be587e2de5c8f97b/3_aa1c9150-6090-4d99-80eb-94e08e1f0838.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/bfaca04755004d64be587e2de5c8f97b/3_aa1c9150-6090-4d99-80eb-94e08e1f0838.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "53926028771676",
         "colorName": "Matte Caramel",
         "colorCode": "11803",
         "imagePath": "/filaments/pla-matte/matte-caramel.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/1e314f91d87b45d28621087ba57ca22b/8.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/1e314f91d87b45d28621087ba57ca22b/8.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "53926028804444",
         "colorName": "Matte Terracotta",
         "colorCode": "11203",
         "imagePath": "/filaments/pla-matte/matte-terracotta.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/010f95a01ce7416c80f25adbeca728c0/5_3f98d7f9-1567-41c1-93eb-af106f8c77a0.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/010f95a01ce7416c80f25adbeca728c0/5_3f98d7f9-1567-41c1-93eb-af106f8c77a0.jpg",
+        "colorTag": "orange"
       },
       {
         "sku": "53926028837212",
         "colorName": "Matte Nardo Gray",
         "colorCode": "11104",
         "imagePath": "/filaments/pla-matte/matte-nardo-gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/e5bc5b447e304021a85fc07ff9016999/1_ea5b7083-7377-4995-bef2-6c066be034b2.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/e5bc5b447e304021a85fc07ff9016999/1_ea5b7083-7377-4995-bef2-6c066be034b2.jpg",
+        "colorTag": "gray"
       }
     ]
   },
@@ -414,91 +469,104 @@
         "colorName": "Candy Green",
         "colorCode": "13506",
         "imagePath": "/filaments/pla-silk-upgrade/candy-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/b6cb1b7292214ec0b38afb579d2f5f21/PLA_Silk_12.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/b6cb1b7292214ec0b38afb579d2f5f21/PLA_Silk_12.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "53583205663068",
         "colorName": "Candy Red",
         "colorCode": "13205",
         "imagePath": "/filaments/pla-silk-upgrade/candy-red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2309fbc5069f4f60bcfaefd2b9514dd0/PLA_Silk_5.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2309fbc5069f4f60bcfaefd2b9514dd0/PLA_Silk_5.jpg",
+        "colorTag": "red"
       },
       {
         "sku": "53583205695836",
         "colorName": "Blue",
         "colorCode": "13604",
         "imagePath": "/filaments/pla-silk-upgrade/blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/1b8e27cc04554d7ab6e15d6ea9585fd5/PLA_Silk_4.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/1b8e27cc04554d7ab6e15d6ea9585fd5/PLA_Silk_4.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "53583205728604",
         "colorName": "Purple",
         "colorCode": "13702",
         "imagePath": "/filaments/pla-silk-upgrade/purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/6823459945094bcea32116568a00cdf0/PLA_Silk_9.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/6823459945094bcea32116568a00cdf0/PLA_Silk_9.jpg",
+        "colorTag": "purple"
       },
       {
         "sku": "53583205761372",
         "colorName": "Pink",
         "colorCode": "13207",
         "imagePath": "/filaments/pla-silk-upgrade/pink.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/ee9c1fa0fb20497081755afe4acb0831/PLA_Silk_1.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/ee9c1fa0fb20497081755afe4acb0831/PLA_Silk_1.jpg",
+        "colorTag": "pink"
       },
       {
         "sku": "53583205794140",
         "colorName": "White",
         "colorCode": "13110",
         "imagePath": "/filaments/pla-silk-upgrade/white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/9f2542f1b7a34d9096655cd8788d2ae5/PLA_Silk_6.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/9f2542f1b7a34d9096655cd8788d2ae5/PLA_Silk_6.jpg",
+        "colorTag": "white"
       },
       {
         "sku": "53583205826908",
         "colorName": "Silver",
         "colorCode": "13109",
         "imagePath": "/filaments/pla-silk-upgrade/silver.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7d86004d3ab3461cb446f1faa3c4c3e3/PLA_Silk_11.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7d86004d3ab3461cb446f1faa3c4c3e3/PLA_Silk_11.jpg",
+        "colorTag": "silver"
       },
       {
         "sku": "53583205859676",
         "colorName": "Gold",
         "colorCode": "13405",
         "imagePath": "/filaments/pla-silk-upgrade/gold.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/a389e82dffba45b7b9729a20afc2a80d/PLA_Silk_8.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/a389e82dffba45b7b9729a20afc2a80d/PLA_Silk_8.jpg",
+        "colorTag": "gold"
       },
       {
         "sku": "53583205892444",
         "colorName": "Mint",
         "colorCode": "13507",
         "imagePath": "/filaments/pla-silk-upgrade/mint.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7a25fc736bea4d869565cd98794339f8/PLA_Silk_2.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7a25fc736bea4d869565cd98794339f8/PLA_Silk_2.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "53583205925212",
         "colorName": "Titan Gray",
         "colorCode": "13108",
         "imagePath": "/filaments/pla-silk-upgrade/titan-gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/9aaebe748b88497387f3c159307aa5bf/cf2723db072c4371b3606938b8cccdb9.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/9aaebe748b88497387f3c159307aa5bf/cf2723db072c4371b3606938b8cccdb9.jpg",
+        "colorTag": "gray"
       },
       {
         "sku": "53583205957980",
         "colorName": "Rose Gold",
         "colorCode": "13206",
         "imagePath": "/filaments/pla-silk-upgrade/rose-gold.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/bc09443440a541a693ac8e515931f554/PLA_Silk_10.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/bc09443440a541a693ac8e515931f554/PLA_Silk_10.jpg",
+        "colorTag": "gold"
       },
       {
         "sku": "53583205990748",
         "colorName": "Champagne",
         "colorCode": "13404",
         "imagePath": "/filaments/pla-silk-upgrade/champagne.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/0cab659c780744e1b3cdb3c8a10c10e5/PLA_Silk_3.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/0cab659c780744e1b3cdb3c8a10c10e5/PLA_Silk_3.jpg",
+        "colorTag": "gold"
       },
       {
         "sku": "53583206023516",
         "colorName": "Baby Blue",
         "colorCode": "13603",
         "imagePath": "/filaments/pla-silk-upgrade/baby-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/69ac130bc20f4e50b4a86e85cda0b419/PLA_Silk_7.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/69ac130bc20f4e50b4a86e85cda0b419/PLA_Silk_7.jpg",
+        "colorTag": "blue"
       }
     ]
   },
@@ -514,70 +582,80 @@
         "colorName": "Teal",
         "colorCode": "13612",
         "imagePath": "/filaments/pla-translucent/teal.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/18aacd2b879441cd80c2cd067b2ad0a1/teal_4dc29df4-13e2-4c00-9e6a-7dbf9183952a.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/18aacd2b879441cd80c2cd067b2ad0a1/teal_4dc29df4-13e2-4c00-9e6a-7dbf9183952a.jpg",
+        "colorTag": "teal"
       },
       {
         "sku": "54345716597084",
         "colorName": "Blue",
         "colorCode": "13611",
         "imagePath": "/filaments/pla-translucent/blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/897233e480eb42d3bbc03e0bc79eaafd/000878ce6144c05ffac949f66b05a18b_0a1f2a15-2a6c-4e9e-88b1-029f32d29e27.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/897233e480eb42d3bbc03e0bc79eaafd/000878ce6144c05ffac949f66b05a18b_0a1f2a15-2a6c-4e9e-88b1-029f32d29e27.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "54345716629852",
         "colorName": "Purple",
         "colorCode": "13710",
         "imagePath": "/filaments/pla-translucent/purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/6a9756a7330f435680a38eddc5f1ef0f/996c0314d3c9f4f6a92e228ed4c8e264_a6207c48-38ce-4034-8302-449a67d23b51.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/6a9756a7330f435680a38eddc5f1ef0f/996c0314d3c9f4f6a92e228ed4c8e264_a6207c48-38ce-4034-8302-449a67d23b51.jpg",
+        "colorTag": "purple"
       },
       {
         "sku": "54345716662620",
         "colorName": "Orange",
         "colorCode": "13301",
         "imagePath": "/filaments/pla-translucent/orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2c97c8fe53e84d41bb62db185fcb74b4/c8682a1b6d56a22c3b0a59f59bf75cf5_b6dcbcfa-e6f8-41b9-a666-bef24ba52ac7.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2c97c8fe53e84d41bb62db185fcb74b4/c8682a1b6d56a22c3b0a59f59bf75cf5_b6dcbcfa-e6f8-41b9-a666-bef24ba52ac7.jpg",
+        "colorTag": "orange"
       },
       {
         "sku": "54345716695388",
         "colorName": "Red",
         "colorCode": "13210",
         "imagePath": "/filaments/pla-translucent/red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4af9bce7cfd243e3bae35a822b919987/520f764beb1954cab793b251ed2a5a3f.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4af9bce7cfd243e3bae35a822b919987/520f764beb1954cab793b251ed2a5a3f.jpg",
+        "colorTag": "red"
       },
       {
         "sku": "54407222985052",
         "colorName": "Light Jade",
         "colorCode": "13510",
         "imagePath": "/filaments/pla-translucent/light-jade.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/99b56f8c67834ab285715889859f08bb/e250fdbcaf7669fa3269b6565491cdcc.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/99b56f8c67834ab285715889859f08bb/e250fdbcaf7669fa3269b6565491cdcc.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "54407223017820",
         "colorName": "Mellow Yellow",
         "colorCode": "13410",
         "imagePath": "/filaments/pla-translucent/mellow-yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/826a4cff55a543089394ca0feddebbf5/af0454a2a27b7c6259624f48c64717dd.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/826a4cff55a543089394ca0feddebbf5/af0454a2a27b7c6259624f48c64717dd.jpg",
+        "colorTag": "yellow"
       },
       {
         "sku": "54407223050588",
         "colorName": "Cherry Pink",
         "colorCode": "13211",
         "imagePath": "/filaments/pla-translucent/cherry-pink.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2c0543a76f134b47aa85ce53a00c6b0a/b250b32bdc6d015ef107c6c2880ac956.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2c0543a76f134b47aa85ce53a00c6b0a/b250b32bdc6d015ef107c6c2880ac956.jpg",
+        "colorTag": "pink"
       },
       {
         "sku": "54407223083356",
         "colorName": "Ice Blue",
         "colorCode": "13610",
         "imagePath": "/filaments/pla-translucent/ice-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/dc877cda7f2b4bd4b186c54b14900a04/cce64cbc630f968803ae0beb0146a780.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/dc877cda7f2b4bd4b186c54b14900a04/cce64cbc630f968803ae0beb0146a780.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "54407223116124",
         "colorName": "Lavender",
         "colorCode": "13711",
         "imagePath": "/filaments/pla-translucent/lavender.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/b09ff5a0de2748a0b57181fc5e568b1e/bc1c912b64c066d06fd795fee51d877b.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/b09ff5a0de2748a0b57181fc5e568b1e/bc1c912b64c066d06fd795fee51d877b.jpg",
+        "colorTag": "purple"
       }
     ]
   },
@@ -593,49 +671,56 @@
         "colorName": "White",
         "colorCode": "12107",
         "imagePath": "/filaments/pla-tough-upgrade/white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/eeeff48a95b04c5888ee3fddc2d830be/PLA_Tough_new.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/eeeff48a95b04c5888ee3fddc2d830be/PLA_Tough_new.jpg",
+        "colorTag": "white"
       },
       {
         "sku": "624496486489088018",
         "colorName": "Yellow",
         "colorCode": "12401",
         "imagePath": "/filaments/pla-tough-upgrade/yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/76a53975eaab4238ab610612c4efdc5f/PLA_Tough_(3).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/76a53975eaab4238ab610612c4efdc5f/PLA_Tough_(3).jpg",
+        "colorTag": "yellow"
       },
       {
         "sku": "624496486489088024",
         "colorName": "Orange",
         "colorCode": "12301",
         "imagePath": "/filaments/pla-tough-upgrade/orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/e0c0dacfe71a4e5795d008b8df8995ba/PLA_Tough_(5).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/e0c0dacfe71a4e5795d008b8df8995ba/PLA_Tough_(5).jpg",
+        "colorTag": "orange"
       },
       {
         "sku": "624496486489088030",
         "colorName": "Gray",
         "colorCode": "12105",
         "imagePath": "/filaments/pla-tough-upgrade/gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/a88104a53799478db5603f76524d833b/PLA_Tough_(1).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/a88104a53799478db5603f76524d833b/PLA_Tough_(1).jpg",
+        "colorTag": "gray"
       },
       {
         "sku": "624496486489088036",
         "colorName": "Silver",
         "colorCode": "12106",
         "imagePath": "/filaments/pla-tough-upgrade/silver.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/0107d882ca3b462981680c380ff53370/PLA_Tough_(2).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/0107d882ca3b462981680c380ff53370/PLA_Tough_(2).jpg",
+        "colorTag": "silver"
       },
       {
         "sku": "624496486489088042",
         "colorName": "Cyan",
         "colorCode": "12601",
         "imagePath": "/filaments/pla-tough-upgrade/cyan.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/0e011944be0f463da0ab267dc981db97/PLA_Tough_(4).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/0e011944be0f463da0ab267dc981db97/PLA_Tough_(4).jpg",
+        "colorTag": "cyan"
       },
       {
         "sku": "624496486489088048",
         "colorName": "Black",
         "colorCode": "12104",
         "imagePath": "/filaments/pla-tough-upgrade/black.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/42bb57e8d1424530be92b0cf8c252fd5/PLA_Tough_(2).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/42bb57e8d1424530be92b0cf8c252fd5/PLA_Tough_(2).jpg",
+        "colorTag": "black"
       }
     ]
   },
@@ -651,56 +736,64 @@
         "colorName": "Arctic Whisper",
         "colorCode": "10900",
         "imagePath": "/filaments/pla-basic-gradient/arctic-whisper.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/76512623295144a6ac5a9b535b05f410/5a241ce2f6c79abb9cfe3cb1414f1bf1.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/76512623295144a6ac5a9b535b05f410/5a241ce2f6c79abb9cfe3cb1414f1bf1.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "46901930525020",
         "colorName": "Solar Breeze",
         "colorCode": "10901",
         "imagePath": "/filaments/pla-basic-gradient/solar-breeze.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/6ca8b35ad8e74c01acfffa03aa8ac583/e40cbbf6e7fed96557d8e2be99e4b9cf.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/6ca8b35ad8e74c01acfffa03aa8ac583/e40cbbf6e7fed96557d8e2be99e4b9cf.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "46901930557788",
         "colorName": "Ocean to Meadow",
         "colorCode": "10902",
         "imagePath": "/filaments/pla-basic-gradient/ocean-to-meadow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/74870782d75c442387dd8ba410d57768/A00-M2-1.75-1000-spl.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/74870782d75c442387dd8ba410d57768/A00-M2-1.75-1000-spl.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "53638219006300",
         "colorName": "Blueberry Bubblegum",
         "colorCode": "10905",
         "imagePath": "/filaments/pla-basic-gradient/blueberry-bubblegum.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/8cbe36827f244841bbf845016c3c77f5/bluebuble.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/8cbe36827f244841bbf845016c3c77f5/bluebuble.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "53638219039068",
         "colorName": "Cotton Candy Cloud",
         "colorCode": "10907",
         "imagePath": "/filaments/pla-basic-gradient/cotton-candy-cloud.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/9c7b5bb7e49a42749b500490e1cbe948/pink_blue.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/9c7b5bb7e49a42749b500490e1cbe948/pink_blue.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "53638219071836",
         "colorName": "Pink Citrus",
         "colorCode": "10903",
         "imagePath": "/filaments/pla-basic-gradient/pink-citrus.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4cb9a6a7f86643dda5aa388628a98368/pink_gradient.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4cb9a6a7f86643dda5aa388628a98368/pink_gradient.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "53638219104604",
         "colorName": "Mint Lime",
         "colorCode": "10904",
         "imagePath": "/filaments/pla-basic-gradient/mint-lime.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/52a397d74f0c44f88163353c99660c2b/gradient_green.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/52a397d74f0c44f88163353c99660c2b/gradient_green.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "53687078420828",
         "colorName": "Dusk Glare",
         "colorCode": "10906",
         "imagePath": "/filaments/pla-basic-gradient/dusk-glare.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7700020e85fe47298c8f396a9d3f3ccd/sunset_orange.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7700020e85fe47298c8f396a9d3f3ccd/sunset_orange.jpg",
+        "colorTag": "multicolor"
       }
     ]
   },
@@ -716,70 +809,80 @@
         "colorName": "Gilded Rose",
         "colorCode": "13901",
         "imagePath": "/filaments/pla-silk-multi-color/gilded-rose.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/2b0dda4a4b4c4de4a1f565f0ea06bb9d/glidedrose.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/2b0dda4a4b4c4de4a1f565f0ea06bb9d/glidedrose.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "47489270808924",
         "colorName": "Midnight Blaze",
         "colorCode": "13902",
         "imagePath": "/filaments/pla-silk-multi-color/midnight-blaze.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/d765d1c29cd343a5aa0331a15ac4087b/midnightblaze2.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/d765d1c29cd343a5aa0331a15ac4087b/midnightblaze2.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "47489270841692",
         "colorName": "Neon City",
         "colorCode": "13903",
         "imagePath": "/filaments/pla-silk-multi-color/neon-city.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/52f1c273233b4271a83c8571fc7339bb/neoncity.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/52f1c273233b4271a83c8571fc7339bb/neoncity.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "47489270874460",
         "colorName": "Blue Hawaii",
         "colorCode": "13904",
         "imagePath": "/filaments/pla-silk-multi-color/blue-hawaii.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/aeeed331bf0a4a80a9563ea40d795a9e/blueHawaii.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/aeeed331bf0a4a80a9563ea40d795a9e/blueHawaii.png",
+        "colorTag": "multicolor"
       },
       {
         "sku": "53515458085212",
         "colorName": "Velvet Eclipse",
         "colorCode": "13905",
         "imagePath": "/filaments/pla-silk-multi-color/velvet-eclipse.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/ef6516ec6ea24e82b48dcf5f74513f19/Silk_Dual_Color_Black-red.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/ef6516ec6ea24e82b48dcf5f74513f19/Silk_Dual_Color_Black-red.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "601314264425144324",
         "colorName": "Dawn Radiance",
         "colorCode": "13912",
         "imagePath": "/filaments/pla-silk-multi-color/dawn-radiance.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/f4c5a0fd47624f1bb4f8a55ab30f70e8/Dawn_Radiance.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/f4c5a0fd47624f1bb4f8a55ab30f70e8/Dawn_Radiance.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "601314264425144330",
         "colorName": "Aurora Purple",
         "colorCode": "13909",
         "imagePath": "/filaments/pla-silk-multi-color/aurora-purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/a58bfc024a514af186b3ca6d2df2bcd5/Aurora_Purple_(1).jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/a58bfc024a514af186b3ca6d2df2bcd5/Aurora_Purple_(1).jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "601314264425144336",
         "colorName": "South Beach",
         "colorCode": "13906",
         "imagePath": "/filaments/pla-silk-multi-color/south-beach.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/416c17ac9f3941e3aec8236380663d63/South_Beach.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/416c17ac9f3941e3aec8236380663d63/South_Beach.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "665320335394844675",
         "colorName": "Mystic Magenta",
         "colorCode": "13913",
         "imagePath": "/filaments/pla-silk-multi-color/mystic-magenta.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/d8c78612d63b43e7ae78a19d760744d0/Mystic_Magenta.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/d8c78612d63b43e7ae78a19d760744d0/Mystic_Magenta.jpg",
+        "colorTag": "multicolor"
       },
       {
         "sku": "665320335394844681",
         "colorName": "Phantom Blue",
         "colorCode": "13916",
         "imagePath": "/filaments/pla-silk-multi-color/phantom-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/f3831103953f45998d186d9c048b1b7c/Phantom_Blue.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/f3831103953f45998d186d9c048b1b7c/Phantom_Blue.jpg",
+        "colorTag": "multicolor"
       }
     ]
   },
@@ -795,42 +898,48 @@
         "colorName": "Black Walnut",
         "colorCode": "13107",
         "imagePath": "/filaments/pla-wood/black-walnut.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/11c1ab483b664ebbbfcf7414c1ec0167/4_4f1d41bd-761c-4ac8-bea1-540852b7334d.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/11c1ab483b664ebbbfcf7414c1ec0167/4_4f1d41bd-761c-4ac8-bea1-540852b7334d.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "53441583087964",
         "colorName": "Rosewood",
         "colorCode": "13204",
         "imagePath": "/filaments/pla-wood/rosewood.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4063ef6f2a6f4a6dac964c52500e2240/2_a72cb84b-e92c-4efa-a205-589184265d78.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4063ef6f2a6f4a6dac964c52500e2240/2_a72cb84b-e92c-4efa-a205-589184265d78.jpg",
+        "colorTag": "red"
       },
       {
         "sku": "53441583120732",
         "colorName": "Clay Brown",
         "colorCode": "13801",
         "imagePath": "/filaments/pla-wood/clay-brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/1489d45ae40843769bd3b87e74e20c57/3_37397ab4-e4dc-4e75-98f9-b69f78c4b142.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/1489d45ae40843769bd3b87e74e20c57/3_37397ab4-e4dc-4e75-98f9-b69f78c4b142.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "53441583153500",
         "colorName": "Classic Birch",
         "colorCode": "13505",
         "imagePath": "/filaments/pla-wood/classic-birch.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/c731fddceeb641a3872e4020a87ab3b2/5_335a103f-01a9-4d9e-90e1-f09e885ea39a.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/c731fddceeb641a3872e4020a87ab3b2/5_335a103f-01a9-4d9e-90e1-f09e885ea39a.jpg",
+        "colorTag": "cream"
       },
       {
         "sku": "53441583186268",
         "colorName": "White Oak",
         "colorCode": "13106",
         "imagePath": "/filaments/pla-wood/white-oak.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/07dea71a85974b74bc502abce752c7e1/1_8a574e02-b803-4e36-b895-8bb70529a014.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/07dea71a85974b74bc502abce752c7e1/1_8a574e02-b803-4e36-b895-8bb70529a014.jpg",
+        "colorTag": "white"
       },
       {
         "sku": "53441583219036",
         "colorName": "Ochre Yellow",
         "colorCode": "13403",
         "imagePath": "/filaments/pla-wood/ochre-yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/09a1ea1e6be44bbe924fa427e0f58ac0/6_ef2119c0-2b6b-4853-8812-03e097822ad9.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/09a1ea1e6be44bbe924fa427e0f58ac0/6_ef2119c0-2b6b-4853-8812-03e097822ad9.jpg",
+        "colorTag": "yellow"
       }
     ]
   },
@@ -846,42 +955,48 @@
         "colorName": "Alpine Green Sparkle",
         "colorCode": "13501",
         "imagePath": "/filaments/pla-sparkle/alpine-green-sparkle.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7407fc887147448bbbf89189c9539952/Sparklegreen.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7407fc887147448bbbf89189c9539952/Sparklegreen.png",
+        "colorTag": "green"
       },
       {
         "sku": "43959190913243",
         "colorName": "Crimson Red Sparkle",
         "colorCode": "13200",
         "imagePath": "/filaments/pla-sparkle/crimson-red-sparkle.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/e4beb26ac3b74c639e2fda465384daa5/PLA-Sparkle_Crimson-Red-Sparkle.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/e4beb26ac3b74c639e2fda465384daa5/PLA-Sparkle_Crimson-Red-Sparkle.png",
+        "colorTag": "red"
       },
       {
         "sku": "43959190946011",
         "colorName": "Onyx Black Sparkle",
         "colorCode": "13101",
         "imagePath": "/filaments/pla-sparkle/onyx-black-sparkle.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/723f2663d59148a3a05c55dd4a3f420b/PLA-Sparkle_Onyx-Black-Sparkle.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/723f2663d59148a3a05c55dd4a3f420b/PLA-Sparkle_Onyx-Black-Sparkle.png",
+        "colorTag": "black"
       },
       {
         "sku": "46797853032796",
         "colorName": "Royal Purple Sparkle",
         "colorCode": "13700",
         "imagePath": "/filaments/pla-sparkle/royal-purple-sparkle.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/a4ddfc1c1e3b48ccbf577ba931ef577d/PLASparkle-RoyalPurpleSparkle.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/a4ddfc1c1e3b48ccbf577ba931ef577d/PLASparkle-RoyalPurpleSparkle.png",
+        "colorTag": "purple"
       },
       {
         "sku": "46797853163868",
         "colorName": "Slate Gray Sparkle",
         "colorCode": "13102",
         "imagePath": "/filaments/pla-sparkle/slate-gray-sparkle.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/45c277b6ec624209a2dac7699759f455/PLASparkle-SlateGray.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/45c277b6ec624209a2dac7699759f455/PLASparkle-SlateGray.png",
+        "colorTag": "gray"
       },
       {
         "sku": "48725896266076",
         "colorName": "Classic Gold Sparkle",
         "colorCode": "13402",
         "imagePath": "/filaments/pla-sparkle/classic-gold-sparkle.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/d7c727fe674e4a0a99dd774c707476b3/sparklegold.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/d7c727fe674e4a0a99dd774c707476b3/sparklegold.png",
+        "colorTag": "gold"
       }
     ]
   },
@@ -897,14 +1012,16 @@
         "colorName": "White Marble",
         "colorCode": "13103",
         "imagePath": "/filaments/pla-marble/white-marble.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4e0e917163c74709bf7e3cc60cbef832/PLA-Marble_White.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4e0e917163c74709bf7e3cc60cbef832/PLA-Marble_White.png",
+        "colorTag": "white"
       },
       {
         "sku": "46756997333340",
         "colorName": "Red Granite",
         "colorCode": "13201",
         "imagePath": "/filaments/pla-marble/red-granite.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/403434f58f2e4ba8a72159a24315dd2b/A07-R5-1.75-1000-spl.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/403434f58f2e4ba8a72159a24315dd2b/A07-R5-1.75-1000-spl.jpg",
+        "colorTag": "red"
       }
     ]
   },
@@ -920,35 +1037,40 @@
         "colorName": "Copper Brown Metallic",
         "colorCode": "13800",
         "imagePath": "/filaments/pla-metal/copper-brown-metallic.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/6d9d1a6196324ee5ac96fc3ddf84ae81/PLAMetalcopperbrown.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/6d9d1a6196324ee5ac96fc3ddf84ae81/PLAMetalcopperbrown.png",
+        "colorTag": "brown"
       },
       {
         "sku": "43959185244379",
         "colorName": "Cobalt Blue Metallic",
         "colorCode": "13600",
         "imagePath": "/filaments/pla-metal/cobalt-blue-metallic.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/a8cb6b37d9d8430b88743d1784093c1a/A02-B2-1.75-1000-spl.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/a8cb6b37d9d8430b88743d1784093c1a/A02-B2-1.75-1000-spl.png",
+        "colorTag": "blue"
       },
       {
         "sku": "43959185277147",
         "colorName": "Oxide Green Metallic",
         "colorCode": "13500",
         "imagePath": "/filaments/pla-metal/oxide-green-metallic.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/592d0afef1d1417f908e99181ad94db4/PLA-Metal_Oxide-Green-Metallic.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/592d0afef1d1417f908e99181ad94db4/PLA-Metal_Oxide-Green-Metallic.png",
+        "colorTag": "green"
       },
       {
         "sku": "46797850902876",
         "colorName": "Iron Gray Metallic",
         "colorCode": "13100",
         "imagePath": "/filaments/pla-metal/iron-gray-metallic.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/81177d39a94244df8e6f2807a687fc20/PLAMetalIrongray.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/81177d39a94244df8e6f2807a687fc20/PLAMetalIrongray.png",
+        "colorTag": "gray"
       },
       {
         "sku": "46797851099484",
         "colorName": "Iridium Gold Metallic",
         "colorCode": "13400",
         "imagePath": "/filaments/pla-metal/iridium-gold-metallic.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/03f995ce7cb24c15a0b026076988dc1f/PLA-Metal_Iridium-Gold-Metallic.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/03f995ce7cb24c15a0b026076988dc1f/PLA-Metal_Iridium-Gold-Metallic.png",
+        "colorTag": "gold"
       }
     ]
   },
@@ -964,28 +1086,32 @@
         "colorName": "Brown",
         "colorCode": "13203",
         "imagePath": "/filaments/pla-galaxy/brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/36a829ff274341bfbb567dbce64b2f8b/brown.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/36a829ff274341bfbb567dbce64b2f8b/brown.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "47730388107612",
         "colorName": "Green",
         "colorCode": "13503",
         "imagePath": "/filaments/pla-galaxy/green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/86d2f24a74004fe1846ea41d71223759/green.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/86d2f24a74004fe1846ea41d71223759/green.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "47730388140380",
         "colorName": "Nebulae",
         "colorCode": "13504",
         "imagePath": "/filaments/pla-galaxy/nebulae.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7453a99a8c4f42058c3aa3dab3ca312b/Nublae.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7453a99a8c4f42058c3aa3dab3ca312b/Nublae.jpg",
+        "colorTag": "purple"
       },
       {
         "sku": "47730388173148",
         "colorName": "Purple",
         "colorCode": "13602",
         "imagePath": "/filaments/pla-galaxy/purple.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/5a46d227df6e4ed4bbe44dd87d31d069/purle.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/5a46d227df6e4ed4bbe44dd87d31d069/purle.jpg",
+        "colorTag": "purple"
       }
     ]
   },
@@ -1001,35 +1127,40 @@
         "colorName": "Glow Orange",
         "colorCode": "15300",
         "imagePath": "/filaments/pla-glow/glow-orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/043e37328a0a4b428546f3c3b135221e/e40cbbf6e7fed96557d8e2be99e4b9cf_874f9392-3fe3-4c65-87cc-91b158674eb3.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/043e37328a0a4b428546f3c3b135221e/e40cbbf6e7fed96557d8e2be99e4b9cf_874f9392-3fe3-4c65-87cc-91b158674eb3.png",
+        "colorTag": "orange"
       },
       {
         "sku": "47396823564636",
         "colorName": "Glow Blue",
         "colorCode": "15600",
         "imagePath": "/filaments/pla-glow/glow-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/0af6c7922e664861b88232425e2fd31a/697ef5c2066bf49f4df46a227b1a93c1_7e4c0733-bbcc-4258-9a3f-7d178fb91191.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/0af6c7922e664861b88232425e2fd31a/697ef5c2066bf49f4df46a227b1a93c1_7e4c0733-bbcc-4258-9a3f-7d178fb91191.png",
+        "colorTag": "blue"
       },
       {
         "sku": "47396823597404",
         "colorName": "Glow Green",
         "colorCode": "15500",
         "imagePath": "/filaments/pla-glow/glow-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/4cffb4e77bab4384b32fc327a60bc1f2/4fefbcd44633bcd5e4f4663eafb78c3c_cb3f9dbb-235b-4e7d-83ab-6cbecb7aa5bf.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/4cffb4e77bab4384b32fc327a60bc1f2/4fefbcd44633bcd5e4f4663eafb78c3c_cb3f9dbb-235b-4e7d-83ab-6cbecb7aa5bf.png",
+        "colorTag": "green"
       },
       {
         "sku": "47396823630172",
         "colorName": "Glow Pink",
         "colorCode": "15200",
         "imagePath": "/filaments/pla-glow/glow-pink.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/6b2bccd25c894f88b9ef2ca7ca0da760/5d4ad98b7e6fd7642323ef49163d8697_0f3e6424-4115-4337-952a-bedfc997a747.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/6b2bccd25c894f88b9ef2ca7ca0da760/5d4ad98b7e6fd7642323ef49163d8697_0f3e6424-4115-4337-952a-bedfc997a747.png",
+        "colorTag": "pink"
       },
       {
         "sku": "47396823662940",
         "colorName": "Glow Yellow",
         "colorCode": "15400",
         "imagePath": "/filaments/pla-glow/glow-yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/853cbec5ed3a42869b1b4b071e0ec808/6fdaecdc33b9371fb7c326d4bd52932b.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/853cbec5ed3a42869b1b4b071e0ec808/6fdaecdc33b9371fb7c326d4bd52932b.png",
+        "colorTag": "yellow"
       }
     ]
   },
@@ -1045,14 +1176,16 @@
         "colorName": "White",
         "colorCode": "14102",
         "imagePath": "/filaments/pla-aero/white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/c2e94607bb684af49bcaa25ec9dac8da/AERO_bc503e27-6fed-4b8e-a505-342f6050dc27.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/c2e94607bb684af49bcaa25ec9dac8da/AERO_bc503e27-6fed-4b8e-a505-342f6050dc27.png",
+        "colorTag": "white"
       },
       {
         "sku": "49078101279068",
         "colorName": "Gray",
         "colorCode": "14104",
         "imagePath": "/filaments/pla-aero/gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/8e976f811e3c4a7c8b01d8f2938bedbb/Aero_1.png"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/8e976f811e3c4a7c8b01d8f2938bedbb/Aero_1.png",
+        "colorTag": "gray"
       }
     ]
   },
@@ -1068,98 +1201,112 @@
         "colorName": "Black",
         "colorCode": "33102",
         "imagePath": "/filaments/petg-hf/black.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/d64929ed7cb941f28881cb09d8884251/PETG_HF_6.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/d64929ed7cb941f28881cb09d8884251/PETG_HF_6.jpg",
+        "colorTag": "black"
       },
       {
         "sku": "49068714721628",
         "colorName": "Red",
         "colorCode": "33200",
         "imagePath": "/filaments/petg-hf/red.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/588e1afe37284baaa4ee09fbff15a66d/5_87e53b22-3a47-4e93-adce-7f40106815c0.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/588e1afe37284baaa4ee09fbff15a66d/5_87e53b22-3a47-4e93-adce-7f40106815c0.jpg",
+        "colorTag": "red"
       },
       {
         "sku": "49068714787164",
         "colorName": "White",
         "colorCode": "33100",
         "imagePath": "/filaments/petg-hf/white.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/448f49cb7bc14916b7c4d6e5d5909176/PETG_HF_7.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/448f49cb7bc14916b7c4d6e5d5909176/PETG_HF_7.jpg",
+        "colorTag": "white"
       },
       {
         "sku": "49068714819932",
         "colorName": "Blue",
         "colorCode": "33600",
         "imagePath": "/filaments/petg-hf/blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/7637c3934e3f40948b30588d7a4059a3/PETG_HF_5.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/7637c3934e3f40948b30588d7a4059a3/PETG_HF_5.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "49068714852700",
         "colorName": "Gray",
         "colorCode": "33101",
         "imagePath": "/filaments/petg-hf/gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/14b742220dee4932889059023e3a429d/PETG_HF_1.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/14b742220dee4932889059023e3a429d/PETG_HF_1.jpg",
+        "colorTag": "gray"
       },
       {
         "sku": "652647509621428224",
         "colorName": "Dark Gray",
         "colorCode": "33103",
         "imagePath": "/filaments/petg-hf/dark-gray.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/b87a5da87c90454089767dad2f0ab73c/PETGHFNEWCOLOR_3.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/b87a5da87c90454089767dad2f0ab73c/PETGHFNEWCOLOR_3.jpg",
+        "colorTag": "gray"
       },
       {
         "sku": "652647509621428230",
         "colorName": "Cream",
         "colorCode": "33401",
         "imagePath": "/filaments/petg-hf/cream.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/5c3cb65921ca495baf61a85215d67264/PETGHFNEWCOLOR_5.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/5c3cb65921ca495baf61a85215d67264/PETGHFNEWCOLOR_5.jpg",
+        "colorTag": "cream"
       },
       {
         "sku": "654594670407929857",
         "colorName": "Forest Green",
         "colorCode": "33502",
         "imagePath": "/filaments/petg-hf/forest-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/6d1ea8824a0046a98e7ab3f74b6e4934/PETGHFNEWCOLOR_6.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/6d1ea8824a0046a98e7ab3f74b6e4934/PETGHFNEWCOLOR_6.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "659158892719947776",
         "colorName": "Yellow",
         "colorCode": "33400",
         "imagePath": "/filaments/petg-hf/yellow.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/8aa958fffbe34dc79541a8133818a26f/PETG_HF_2.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/8aa958fffbe34dc79541a8133818a26f/PETG_HF_2.jpg",
+        "colorTag": "yellow"
       },
       {
         "sku": "659158892719947782",
         "colorName": "Green",
         "colorCode": "33500",
         "imagePath": "/filaments/petg-hf/green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/12c71260748340ae9ed3f3128cd425b1/PETG_HF_3.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/12c71260748340ae9ed3f3128cd425b1/PETG_HF_3.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "659158892719947788",
         "colorName": "Peanut Brown",
         "colorCode": "33801",
         "imagePath": "/filaments/petg-hf/peanut-brown.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/cd789e854ab5484ba62127822b54e3b1/PETGHFNEWCOLOR_1.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/cd789e854ab5484ba62127822b54e3b1/PETGHFNEWCOLOR_1.jpg",
+        "colorTag": "brown"
       },
       {
         "sku": "659158892719947794",
         "colorName": "Lake Blue",
         "colorCode": "33601",
         "imagePath": "/filaments/petg-hf/lake-blue.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/b42cd9dea946410283ad3faf344e0525/PETGHFNEWCOLOR_2.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/b42cd9dea946410283ad3faf344e0525/PETGHFNEWCOLOR_2.jpg",
+        "colorTag": "blue"
       },
       {
         "sku": "661693057651097600",
         "colorName": "Lime Green",
         "colorCode": "33501",
         "imagePath": "/filaments/petg-hf/lime-green.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/fd6bbfb864ac4510a298939d96558889/PETGHFNEWCOLOR_4.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/fd6bbfb864ac4510a298939d96558889/PETGHFNEWCOLOR_4.jpg",
+        "colorTag": "green"
       },
       {
         "sku": "662420594979069952",
         "colorName": "Orange",
         "colorCode": "33300",
         "imagePath": "/filaments/petg-hf/orange.jpg",
-        "imageUrl": "https://store.bblcdn.eu/s8/default/073a09348a6a4074b50c43a97e0bfb9f/PETG_HF_4.jpg"
+        "imageUrl": "https://store.bblcdn.eu/s8/default/073a09348a6a4074b50c43a97e0bfb9f/PETG_HF_4.jpg",
+        "colorTag": "orange"
       }
     ]
   }

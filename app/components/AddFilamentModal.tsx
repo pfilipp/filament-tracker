@@ -5,12 +5,16 @@ import Image from "next/image";
 import type { FilamentProduct, FilamentVariant } from "@/app/lib/types";
 import { DEFAULT_BRAND } from "@/app/lib/constants";
 import { QuantityControl } from "./QuantityControl";
+import { BrandSelect } from "./BrandSelect";
+import { ColorTagBadge } from "./ColorTagBadge";
 
 interface AddFilamentModalProps {
   product: FilamentProduct;
   variant: FilamentVariant;
   initialQuantity: number;
   initialBrand: string;
+  brands: string[];
+  onAddBrand: (name: string) => void;
   onSave: (quantity: number, brand: string) => void;
   onClose: () => void;
 }
@@ -20,6 +24,8 @@ export function AddFilamentModal({
   variant,
   initialQuantity,
   initialBrand,
+  brands,
+  onAddBrand,
   onSave,
   onClose,
 }: AddFilamentModalProps) {
@@ -67,9 +73,12 @@ export function AddFilamentModal({
             <p className="text-sm text-zinc-500 dark:text-zinc-400">
               {variant.colorName}
             </p>
-            <span className="mt-1 inline-block rounded-full bg-zinc-100 px-2 py-0.5 text-xs font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400">
-              {product.material}
-            </span>
+            <div className="mt-1 flex gap-1">
+              <span className="inline-block rounded-full bg-zinc-100 px-2 py-0.5 text-xs font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400">
+                {product.material}
+              </span>
+              <ColorTagBadge tag={variant.colorTag} />
+            </div>
           </div>
         </div>
 
@@ -84,11 +93,11 @@ export function AddFilamentModal({
           <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
             Brand
           </label>
-          <input
-            type="text"
+          <BrandSelect
             value={brand}
-            onChange={(e) => setBrand(e.target.value)}
-            className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-500 focus:ring-1 focus:ring-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100"
+            brands={brands}
+            onBrandChange={setBrand}
+            onAddBrand={onAddBrand}
           />
         </div>
 

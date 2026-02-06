@@ -1,7 +1,7 @@
 "use client";
 
 import { useSyncExternalStore, useCallback } from "react";
-import type { StockEntry, StockData } from "@/app/lib/types";
+import type { ColorTag, StockEntry, StockData } from "@/app/lib/types";
 import { DEFAULT_BRAND } from "@/app/lib/constants";
 import {
   getStockSnapshot,
@@ -74,15 +74,15 @@ export function useFilamentStock() {
 
   const addCustomEntry = useCallback(
     (
-      productName: string,
-      colorName: string,
-      material: "PLA" | "PETG",
+      subtype: string,
+      colorTag: ColorTag,
       quantity: number,
       brand: string,
+      displayName?: string,
     ) => {
       const current = getStockSnapshot();
       const uuid = crypto.randomUUID();
-      const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+      const slug = subtype.toLowerCase().replace(/[^a-z0-9]+/g, "-");
       const now = new Date().toISOString();
       const entry: StockEntry = {
         id: `custom::${uuid}`,
@@ -93,9 +93,9 @@ export function useFilamentStock() {
         addedAt: now,
         updatedAt: now,
         custom: true,
-        customProductName: productName,
-        customColorName: colorName,
-        customMaterial: material,
+        customSubtype: subtype,
+        customColorTag: colorTag,
+        customDisplayName: displayName || undefined,
       };
       writeStock({ ...current, entries: [...current.entries, entry] });
     },
@@ -110,9 +110,9 @@ export function useFilamentStock() {
           StockEntry,
           | "quantity"
           | "brand"
-          | "customProductName"
-          | "customColorName"
-          | "customMaterial"
+          | "customSubtype"
+          | "customColorTag"
+          | "customDisplayName"
         >
       >,
     ) => {

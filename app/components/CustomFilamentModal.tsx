@@ -1,17 +1,22 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
-import type { StockEntry } from "@/app/lib/types";
+import type { ColorTag, StockEntry } from "@/app/lib/types";
+import { COLOR_TAGS, PRODUCT_TYPES, DEFAULT_BRAND } from "@/app/lib/constants";
+import { getAutoName, getMaterialForSubtype } from "@/app/lib/filament-utils";
 import { QuantityControl } from "./QuantityControl";
+import { BrandSelect } from "./BrandSelect";
 
 interface CustomFilamentModalProps {
   entry?: StockEntry;
+  brands: string[];
+  onAddBrand: (name: string) => void;
   onSave: (
-    productName: string,
-    colorName: string,
-    material: "PLA" | "PETG",
+    subtype: string,
+    colorTag: ColorTag,
     quantity: number,
     brand: string,
+    displayName?: string,
   ) => void;
   onUpdate?: (
     id: string,
@@ -20,9 +25,9 @@ interface CustomFilamentModalProps {
         StockEntry,
         | "quantity"
         | "brand"
-        | "customProductName"
-        | "customColorName"
-        | "customMaterial"
+        | "customSubtype"
+        | "customColorTag"
+        | "customDisplayName"
       >
     >,
   ) => void;
@@ -32,23 +37,27 @@ interface CustomFilamentModalProps {
 
 export function CustomFilamentModal({
   entry,
+  brands,
+  onAddBrand,
   onSave,
   onUpdate,
   onDelete,
   onClose,
 }: CustomFilamentModalProps) {
   const isEdit = !!entry;
-  const [productName, setProductName] = useState(
-    entry?.customProductName ?? "",
+  const [subtype, setSubtype] = useState(
+    entry?.customSubtype ?? PRODUCT_TYPES[0],
   );
-  const [colorName, setColorName] = useState(entry?.customColorName ?? "");
-  const [material, setMaterial] = useState<"PLA" | "PETG">(
-    entry?.customMaterial ?? "PLA",
+  const [colorTag, setColorTag] = useState<ColorTag>(
+    entry?.customColorTag ?? "white",
   );
   const [quantity, setQuantity] = useState(entry?.quantity ?? 1);
-  const [brand, setBrand] = useState(entry?.brand ?? "");
+  const [brand, setBrand] = useState(entry?.brand ?? DEFAULT_BRAND);
+  const [displayName, setDisplayName] = useState(
+    entry?.customDisplayName ?? "",
+  );
 
-  const isValid = productName.trim() !== "" && colorName.trim() !== "";
+  const autoName = getAutoName(brand, colorTag, subtype);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -67,23 +76,16 @@ export function CustomFilamentModal({
   }, [handleKeyDown]);
 
   const handleSubmit = () => {
-    if (!isValid) return;
     if (isEdit && onUpdate && entry) {
       onUpdate(entry.id, {
-        customProductName: productName.trim(),
-        customColorName: colorName.trim(),
-        customMaterial: material,
+        customSubtype: subtype,
+        customColorTag: colorTag,
         quantity,
-        brand: brand.trim(),
+        brand,
+        customDisplayName: displayName.trim() || undefined,
       });
     } else {
-      onSave(
-        productName.trim(),
-        colorName.trim(),
-        material,
-        quantity,
-        brand.trim(),
-      );
+      onSave(subtype, colorTag, quantity, brand, displayName.trim() || undefined);
     }
     onClose();
   };
@@ -102,70 +104,79 @@ export function CustomFilamentModal({
 
         <div className="mb-3">
           <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
-            Product Name
-          </label>
-          <input
-            type="text"
-            value={productName}
-            onChange={(e) => setProductName(e.target.value)}
-            placeholder="e.g. Polymaker PLA Pro"
-            className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-zinc-500 focus:ring-1 focus:ring-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
-          />
-        </div>
-
-        <div className="mb-3">
-          <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
-            Color Name
-          </label>
-          <input
-            type="text"
-            value={colorName}
-            onChange={(e) => setColorName(e.target.value)}
-            placeholder="e.g. Sakura Pink"
-            className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-zinc-500 focus:ring-1 focus:ring-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
-          />
-        </div>
-
-        <div className="mb-3">
-          <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
-            Material
+            Type
           </label>
           <select
-            value={material}
-            onChange={(e) => setMaterial(e.target.value as "PLA" | "PETG")}
+            value={subtype}
+            onChange={(e) => setSubtype(e.target.value)}
             className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100"
           >
-            <option value="PLA">PLA</option>
-            <option value="PETG">PETG</option>
+            {PRODUCT_TYPES.map((t) => (
+              <option key={t} value={t}>
+                {t} ({getMaterialForSubtype(t)})
+              </option>
+            ))}
           </select>
         </div>
 
         <div className="mb-3">
+          <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            Color
+          </label>
+          <select
+            value={colorTag}
+            onChange={(e) => setColorTag(e.target.value as ColorTag)}
+            className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100"
+          >
+            {COLOR_TAGS.map((tag) => (
+              <option key={tag} value={tag}>
+                {tag[0].toUpperCase() + tag.slice(1)}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="mb-3">
+          <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            Brand
+          </label>
+          <BrandSelect
+            value={brand}
+            brands={brands}
+            onBrandChange={setBrand}
+            onAddBrand={onAddBrand}
+          />
+        </div>
+
+        <div className="mb-3">
+          <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            Name{" "}
+            <span className="font-normal text-zinc-400">(optional)</span>
+          </label>
+          <input
+            type="text"
+            value={displayName}
+            onChange={(e) => setDisplayName(e.target.value)}
+            placeholder={autoName}
+            className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-zinc-500 focus:ring-1 focus:ring-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
+          />
+          <p className="mt-1 text-xs text-zinc-400">
+            Preview: {displayName.trim() || autoName}
+          </p>
+        </div>
+
+        <div className="mb-4">
           <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
             Spools
           </label>
           <QuantityControl value={quantity} onChange={setQuantity} />
         </div>
 
-        <div className="mb-6">
-          <label className="mb-1 block text-sm font-medium text-zinc-700 dark:text-zinc-300">
-            Brand
-          </label>
-          <input
-            type="text"
-            value={brand}
-            onChange={(e) => setBrand(e.target.value)}
-            placeholder="e.g. Polymaker"
-            className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-zinc-500 focus:ring-1 focus:ring-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
-          />
-        </div>
-
         <div className="flex gap-2">
           <button
             type="button"
             onClick={handleSubmit}
-            disabled={!isValid}
-            className="flex-1 rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-700 disabled:opacity-50 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
+            className="flex-1 rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
           >
             Save
           </button>

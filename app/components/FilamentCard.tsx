@@ -3,6 +3,7 @@
 import Image from "next/image";
 import type { FilamentProduct, FilamentVariant, StockEntry } from "@/app/lib/types";
 import { BrandOverlay } from "./BrandOverlay";
+import { ColorTagBadge } from "./ColorTagBadge";
 
 interface FilamentCardProps {
   product: FilamentProduct;
@@ -45,9 +46,12 @@ export function FilamentCard({
         <span className="text-xs text-zinc-500 dark:text-zinc-400">
           {product.name}
         </span>
-        <span className="mt-1 inline-block w-fit rounded-full bg-zinc-100 px-2 py-0.5 text-[10px] font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
-          {product.material}
-        </span>
+        <div className="mt-1 flex gap-1">
+          <span className="inline-block w-fit rounded-full bg-zinc-100 px-2 py-0.5 text-[10px] font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+            {product.material}
+          </span>
+          <ColorTagBadge tag={variant.colorTag} />
+        </div>
       </div>
     </button>
   );

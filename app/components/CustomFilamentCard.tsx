@@ -1,7 +1,9 @@
 "use client";
 
 import type { StockEntry } from "@/app/lib/types";
+import { getAutoName, getMaterialForSubtype } from "@/app/lib/filament-utils";
 import { BrandOverlay } from "./BrandOverlay";
+import { ColorTagBadge } from "./ColorTagBadge";
 
 interface CustomFilamentCardProps {
   entry: StockEntry;
@@ -9,6 +11,12 @@ interface CustomFilamentCardProps {
 }
 
 export function CustomFilamentCard({ entry, onClick }: CustomFilamentCardProps) {
+  const subtype = entry.customSubtype ?? "PLA Basic";
+  const colorTag = entry.customColorTag ?? "white";
+  const material = getMaterialForSubtype(subtype);
+  const displayName =
+    entry.customDisplayName || getAutoName(entry.brand, colorTag, subtype);
+
   return (
     <button
       type="button"
@@ -26,14 +34,17 @@ export function CustomFilamentCard({ entry, onClick }: CustomFilamentCardProps) 
       </div>
       <div className="flex flex-1 flex-col gap-0.5 p-3">
         <span className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
-          {entry.customColorName}
+          {displayName}
         </span>
         <span className="text-xs text-zinc-500 dark:text-zinc-400">
-          {entry.customProductName}
+          {subtype}
         </span>
-        <span className="mt-1 inline-block w-fit rounded-full bg-zinc-100 px-2 py-0.5 text-[10px] font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
-          {entry.customMaterial}
-        </span>
+        <div className="mt-1 flex gap-1">
+          <span className="inline-block w-fit rounded-full bg-zinc-100 px-2 py-0.5 text-[10px] font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+            {material}
+          </span>
+          <ColorTagBadge tag={colorTag} />
+        </div>
       </div>
     </button>
   );

@@ -2,25 +2,28 @@
 
 import type { FilterState } from "@/app/lib/types";
 import { MATERIAL_OPTIONS } from "@/app/lib/constants";
+import { BrandSelect } from "./BrandSelect";
 
 interface FilterBarProps {
   filters: FilterState;
-  availableBrands: string[];
+  brands: string[];
   availableProductTypes: string[];
   onMaterialChange: (material: FilterState["material"]) => void;
   onProductTypeChange: (type: string) => void;
   onBrandChange: (brand: string) => void;
+  onAddBrand: (name: string) => void;
   onSearchChange: (query: string) => void;
   onShowOnlyOwnedChange: (show: boolean) => void;
 }
 
 export function FilterBar({
   filters,
-  availableBrands,
+  brands,
   availableProductTypes,
   onMaterialChange,
   onProductTypeChange,
   onBrandChange,
+  onAddBrand,
   onSearchChange,
   onShowOnlyOwnedChange,
 }: FilterBarProps) {
@@ -53,18 +56,15 @@ export function FilterBar({
         ))}
       </select>
 
-      <select
-        value={filters.brand}
-        onChange={(e) => onBrandChange(e.target.value)}
-        className="rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100"
-      >
-        <option value="all">All Brands</option>
-        {availableBrands.map((b) => (
-          <option key={b} value={b}>
-            {b}
-          </option>
-        ))}
-      </select>
+      <div className="w-40">
+        <BrandSelect
+          value={filters.brand}
+          brands={brands}
+          onBrandChange={onBrandChange}
+          onAddBrand={onAddBrand}
+          includeAll
+        />
+      </div>
 
       <input
         type="text"

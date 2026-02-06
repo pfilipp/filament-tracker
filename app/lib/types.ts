@@ -1,3 +1,9 @@
+export type ColorTag =
+  | "black" | "blue" | "brown" | "cream" | "cyan"
+  | "gold" | "gray" | "green" | "orange" | "pink"
+  | "purple" | "red" | "silver" | "teal" | "white"
+  | "yellow" | "multicolor";
+
 export interface FilamentProduct {
   slug: string;
   name: string;
@@ -11,6 +17,7 @@ export interface FilamentVariant {
   sku: string;
   colorName: string;
   colorCode: string | null;
+  colorTag: ColorTag;
   imagePath: string;
   imageUrl: string;
 }
@@ -24,14 +31,18 @@ export interface StockEntry {
   addedAt: string;
   updatedAt: string;
   custom?: boolean;
-  customProductName?: string;
-  customColorName?: string;
-  customMaterial?: "PLA" | "PETG";
+  customSubtype?: string;
+  customColorTag?: ColorTag;
+  customDisplayName?: string;
 }
 
 export interface StockData {
-  version: 1;
+  version: 2;
   entries: StockEntry[];
+}
+
+export interface BrandData {
+  brands: string[];
 }
 
 export interface FilterState {

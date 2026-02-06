@@ -1,7 +1,7 @@
 import type { StockData } from "./types";
 import { STORAGE_KEY } from "./constants";
 
-const EMPTY_STOCK: StockData = { version: 1, entries: [] };
+const EMPTY_STOCK: StockData = { version: 2, entries: [] };
 
 let listeners: Array<() => void> = [];
 
