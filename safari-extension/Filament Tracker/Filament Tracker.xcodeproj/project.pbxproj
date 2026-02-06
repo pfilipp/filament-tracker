@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573185EC2F3644C500860D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185EB2F3644C500860D8F /* AppDelegate.swift */; };
+		573185EE2F3644C500860D8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185ED2F3644C500860D8F /* SceneDelegate.swift */; };
+		573185F12F3644C500860D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573185EF2F3644C500860D8F /* LaunchScreen.storyboard */; };
+		573185F42F3644C500860D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573185F22F3644C500860D8F /* Main.storyboard */; };
+		573185FD2F3644C500860D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185FC2F3644C500860D8F /* AppDelegate.swift */; };
+		573186002F3644C500860D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573185FE2F3644C500860D8F /* Main.storyboard */; };
+		573186072F3644C500860D8F /* Filament Tracker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 573186062F3644C500860D8F /* Filament Tracker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		573186112F3644C500860D8F /* Filament Tracker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 573186102F3644C500860D8F /* Filament Tracker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		573186162F3644C500860D8F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 573185DB2F3644C400860D8F /* Main.html */; };
+		573186172F3644C500860D8F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 573185DB2F3644C400860D8F /* Main.html */; };
+		573186182F3644C500860D8F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 573185DD2F3644C400860D8F /* Icon.png */; };
+		573186192F3644C500860D8F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 573185DD2F3644C400860D8F /* Icon.png */; };
+		5731861A2F3644C500860D8F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 573185DE2F3644C400860D8F /* Style.css */; };
+		5731861B2F3644C500860D8F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 573185DE2F3644C400860D8F /* Style.css */; };
+		5731861C2F3644C500860D8F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 573185DF2F3644C400860D8F /* Script.js */; };
+		5731861D2F3644C500860D8F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 573185DF2F3644C400860D8F /* Script.js */; };
+		5731861E2F3644C500860D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185E02F3644C400860D8F /* ViewController.swift */; };
+		5731861F2F3644C500860D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185E02F3644C400860D8F /* ViewController.swift */; };
+		573186202F3644C500860D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573185E12F3644C500860D8F /* Assets.xcassets */; };
+		573186212F3644C500860D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573185E12F3644C500860D8F /* Assets.xcassets */; };
+		573186222F3644C500860D8F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185E32F3644C500860D8F /* SafariWebExtensionHandler.swift */; };
+		573186232F3644C500860D8F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573185E32F3644C500860D8F /* SafariWebExtensionHandler.swift */; };
+		5731863E2F3644C600860D8F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 573186352F3644C600860D8F /* popup.js */; };
+		5731863F2F3644C600860D8F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 573186362F3644C600860D8F /* popup.html */; };
+		573186402F3644C600860D8F /* store-overlay.js in Resources */ = {isa = PBXBuildFile; fileRef = 573186372F3644C600860D8F /* store-overlay.js */; };
+		573186412F3644C600860D8F /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 573186382F3644C600860D8F /* icons */; };
+		573186422F3644C600860D8F /* store-overlay.css in Resources */ = {isa = PBXBuildFile; fileRef = 573186392F3644C600860D8F /* store-overlay.css */; };
+		573186432F3644C600860D8F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5731863A2F3644C600860D8F /* manifest.json */; };
+		573186442F3644C600860D8F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5731863B2F3644C600860D8F /* popup.css */; };
+		573186452F3644C600860D8F /* service-worker.js in Resources */ = {isa = PBXBuildFile; fileRef = 5731863C2F3644C600860D8F /* service-worker.js */; };
+		573186462F3644C600860D8F /* tracker-sync.js in Resources */ = {isa = PBXBuildFile; fileRef = 5731863D2F3644C600860D8F /* tracker-sync.js */; };
+		573186472F3644C600860D8F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 573186352F3644C600860D8F /* popup.js */; };
+		573186482F3644C600860D8F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 573186362F3644C600860D8F /* popup.html */; };
+		573186492F3644C600860D8F /* store-overlay.js in Resources */ = {isa = PBXBuildFile; fileRef = 573186372F3644C600860D8F /* store-overlay.js */; };
+		5731864A2F3644C600860D8F /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 573186382F3644C600860D8F /* icons */; };
+		5731864B2F3644C600860D8F /* store-overlay.css in Resources */ = {isa = PBXBuildFile; fileRef = 573186392F3644C600860D8F /* store-overlay.css */; };
+		5731864C2F3644C600860D8F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5731863A2F3644C600860D8F /* manifest.json */; };
+		5731864D2F3644C600860D8F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5731863B2F3644C600860D8F /* popup.css */; };
+		5731864E2F3644C600860D8F /* service-worker.js in Resources */ = {isa = PBXBuildFile; fileRef = 5731863C2F3644C600860D8F /* service-worker.js */; };
+		5731864F2F3644C600860D8F /* tracker-sync.js in Resources */ = {isa = PBXBuildFile; fileRef = 5731863D2F3644C600860D8F /* tracker-sync.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		573186082F3644C500860D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573185D52F3644C400860D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573186052F3644C500860D8F;
+			remoteInfo = "Filament Tracker Extension (iOS)";
+		};
+		573186122F3644C500860D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573185D52F3644C400860D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5731860F2F3644C500860D8F;
+			remoteInfo = "Filament Tracker Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		573186292F3644C500860D8F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				573186072F3644C500860D8F /* Filament Tracker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573186302F3644C500860D8F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				573186112F3644C500860D8F /* Filament Tracker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		573185DC2F3644C400860D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		573185DD2F3644C400860D8F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		573185DE2F3644C400860D8F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		573185DF2F3644C400860D8F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		573185E02F3644C400860D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		573185E12F3644C500860D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573185E32F3644C500860D8F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		573185E82F3644C500860D8F /* Filament Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filament Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		573185EB2F3644C500860D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		573185ED2F3644C500860D8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		573185F02F3644C500860D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		573185F32F3644C500860D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573185F52F3644C500860D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573185FA2F3644C500860D8F /* Filament Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filament Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		573185FC2F3644C500860D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		573185FF2F3644C500860D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573186012F3644C500860D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573186062F3644C500860D8F /* Filament Tracker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Filament Tracker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5731860B2F3644C500860D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573186102F3644C500860D8F /* Filament Tracker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Filament Tracker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		573186152F3644C500860D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573186352F3644C600860D8F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../../chrome-extension/dist/popup.js"; sourceTree = "<group>"; };
+		573186362F3644C600860D8F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../../chrome-extension/dist/popup.html"; sourceTree = "<group>"; };
+		573186372F3644C600860D8F /* store-overlay.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "store-overlay.js"; path = "../../../chrome-extension/dist/store-overlay.js"; sourceTree = "<group>"; };
+		573186382F3644C600860D8F /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../../chrome-extension/dist/icons"; sourceTree = "<group>"; };
+		573186392F3644C600860D8F /* store-overlay.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "store-overlay.css"; path = "../../../chrome-extension/dist/store-overlay.css"; sourceTree = "<group>"; };
+		5731863A2F3644C600860D8F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../chrome-extension/dist/manifest.json"; sourceTree = "<group>"; };
+		5731863B2F3644C600860D8F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = "../../../chrome-extension/dist/popup.css"; sourceTree = "<group>"; };
+		5731863C2F3644C600860D8F /* service-worker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "service-worker.js"; path = "../../../chrome-extension/dist/service-worker.js"; sourceTree = "<group>"; };
+		5731863D2F3644C600860D8F /* tracker-sync.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "tracker-sync.js"; path = "../../../chrome-extension/dist/tracker-sync.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573185E52F3644C500860D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573185F72F3644C500860D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573186032F3644C500860D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5731860D2F3644C500860D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573185D42F3644C400860D8F = {
+			isa = PBXGroup;
+			children = (
+				573185D92F3644C400860D8F /* Shared (App) */,
+				573185E22F3644C500860D8F /* Shared (Extension) */,
+				573185EA2F3644C500860D8F /* iOS (App) */,
+				573185FB2F3644C500860D8F /* macOS (App) */,
+				5731860A2F3644C500860D8F /* iOS (Extension) */,
+				573186142F3644C500860D8F /* macOS (Extension) */,
+				573185E92F3644C500860D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573185D92F3644C400860D8F /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				573185E02F3644C400860D8F /* ViewController.swift */,
+				573185E12F3644C500860D8F /* Assets.xcassets */,
+				573185DA2F3644C400860D8F /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		573185DA2F3644C400860D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				573185DB2F3644C400860D8F /* Main.html */,
+				573185DD2F3644C400860D8F /* Icon.png */,
+				573185DE2F3644C400860D8F /* Style.css */,
+				573185DF2F3644C400860D8F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		573185E22F3644C500860D8F /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				573186342F3644C600860D8F /* Resources */,
+				573185E32F3644C500860D8F /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		573185E92F3644C500860D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573185E82F3644C500860D8F /* Filament Tracker.app */,
+				573185FA2F3644C500860D8F /* Filament Tracker.app */,
+				573186062F3644C500860D8F /* Filament Tracker Extension.appex */,
+				573186102F3644C500860D8F /* Filament Tracker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573185EA2F3644C500860D8F /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				573185EB2F3644C500860D8F /* AppDelegate.swift */,
+				573185ED2F3644C500860D8F /* SceneDelegate.swift */,
+				573185EF2F3644C500860D8F /* LaunchScreen.storyboard */,
+				573185F22F3644C500860D8F /* Main.storyboard */,
+				573185F52F3644C500860D8F /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		573185FB2F3644C500860D8F /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				573185FC2F3644C500860D8F /* AppDelegate.swift */,
+				573185FE2F3644C500860D8F /* Main.storyboard */,
+				573186012F3644C500860D8F /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		5731860A2F3644C500860D8F /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5731860B2F3644C500860D8F /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		573186142F3644C500860D8F /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				573186152F3644C500860D8F /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		573186342F3644C600860D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				573186352F3644C600860D8F /* popup.js */,
+				573186362F3644C600860D8F /* popup.html */,
+				573186372F3644C600860D8F /* store-overlay.js */,
+				573186382F3644C600860D8F /* icons */,
+				573186392F3644C600860D8F /* store-overlay.css */,
+				5731863A2F3644C600860D8F /* manifest.json */,
+				5731863B2F3644C600860D8F /* popup.css */,
+				5731863C2F3644C600860D8F /* service-worker.js */,
+				5731863D2F3644C600860D8F /* tracker-sync.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573185E72F3644C500860D8F /* Filament Tracker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5731862A2F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker (iOS)" */;
+			buildPhases = (
+				573185E42F3644C500860D8F /* Sources */,
+				573185E52F3644C500860D8F /* Frameworks */,
+				573185E62F3644C500860D8F /* Resources */,
+				573186292F3644C500860D8F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573186092F3644C500860D8F /* PBXTargetDependency */,
+			);
+			name = "Filament Tracker (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Filament Tracker (iOS)";
+			productReference = 573185E82F3644C500860D8F /* Filament Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		573185F92F3644C500860D8F /* Filament Tracker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573186312F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker (macOS)" */;
+			buildPhases = (
+				573185F62F3644C500860D8F /* Sources */,
+				573185F72F3644C500860D8F /* Frameworks */,
+				573185F82F3644C500860D8F /* Resources */,
+				573186302F3644C500860D8F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573186132F3644C500860D8F /* PBXTargetDependency */,
+			);
+			name = "Filament Tracker (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Filament Tracker (macOS)";
+			productReference = 573185FA2F3644C500860D8F /* Filament Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		573186052F3644C500860D8F /* Filament Tracker Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573186262F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker Extension (iOS)" */;
+			buildPhases = (
+				573186022F3644C500860D8F /* Sources */,
+				573186032F3644C500860D8F /* Frameworks */,
+				573186042F3644C500860D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Filament Tracker Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Filament Tracker Extension (iOS)";
+			productReference = 573186062F3644C500860D8F /* Filament Tracker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5731860F2F3644C500860D8F /* Filament Tracker Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5731862D2F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker Extension (macOS)" */;
+			buildPhases = (
+				5731860C2F3644C500860D8F /* Sources */,
+				5731860D2F3644C500860D8F /* Frameworks */,
+				5731860E2F3644C500860D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Filament Tracker Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Filament Tracker Extension (macOS)";
+			productReference = 573186102F3644C500860D8F /* Filament Tracker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573185D52F3644C400860D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					573185E72F3644C500860D8F = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					573185F92F3644C500860D8F = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					573186052F3644C500860D8F = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					5731860F2F3644C500860D8F = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 573185D82F3644C400860D8F /* Build configuration list for PBXProject "Filament Tracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573185D42F3644C400860D8F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 573185E92F3644C500860D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573185E72F3644C500860D8F /* Filament Tracker (iOS) */,
+				573185F92F3644C500860D8F /* Filament Tracker (macOS) */,
+				573186052F3644C500860D8F /* Filament Tracker Extension (iOS) */,
+				5731860F2F3644C500860D8F /* Filament Tracker Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573185E62F3644C500860D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573186182F3644C500860D8F /* Icon.png in Resources */,
+				573185F12F3644C500860D8F /* LaunchScreen.storyboard in Resources */,
+				573186162F3644C500860D8F /* Main.html in Resources */,
+				5731861C2F3644C500860D8F /* Script.js in Resources */,
+				573186202F3644C500860D8F /* Assets.xcassets in Resources */,
+				573185F42F3644C500860D8F /* Main.storyboard in Resources */,
+				5731861A2F3644C500860D8F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573185F82F3644C500860D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573186192F3644C500860D8F /* Icon.png in Resources */,
+				5731861B2F3644C500860D8F /* Style.css in Resources */,
+				573186002F3644C500860D8F /* Main.storyboard in Resources */,
+				5731861D2F3644C500860D8F /* Script.js in Resources */,
+				573186212F3644C500860D8F /* Assets.xcassets in Resources */,
+				573186172F3644C500860D8F /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573186042F3644C500860D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5731864F2F3644C600860D8F /* tracker-sync.js in Resources */,
+				5731864B2F3644C600860D8F /* store-overlay.css in Resources */,
+				5731864D2F3644C600860D8F /* popup.css in Resources */,
+				573186492F3644C600860D8F /* store-overlay.js in Resources */,
+				5731864A2F3644C600860D8F /* icons in Resources */,
+				5731864E2F3644C600860D8F /* service-worker.js in Resources */,
+				573186472F3644C600860D8F /* popup.js in Resources */,
+				5731864C2F3644C600860D8F /* manifest.json in Resources */,
+				573186482F3644C600860D8F /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5731860E2F3644C500860D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573186462F3644C600860D8F /* tracker-sync.js in Resources */,
+				573186422F3644C600860D8F /* store-overlay.css in Resources */,
+				573186442F3644C600860D8F /* popup.css in Resources */,
+				573186402F3644C600860D8F /* store-overlay.js in Resources */,
+				573186412F3644C600860D8F /* icons in Resources */,
+				573186452F3644C600860D8F /* service-worker.js in Resources */,
+				5731863E2F3644C600860D8F /* popup.js in Resources */,
+				573186432F3644C600860D8F /* manifest.json in Resources */,
+				5731863F2F3644C600860D8F /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573185E42F3644C500860D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5731861E2F3644C500860D8F /* ViewController.swift in Sources */,
+				573185EC2F3644C500860D8F /* AppDelegate.swift in Sources */,
+				573185EE2F3644C500860D8F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573185F62F3644C500860D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5731861F2F3644C500860D8F /* ViewController.swift in Sources */,
+				573185FD2F3644C500860D8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573186022F3644C500860D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573186222F3644C500860D8F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5731860C2F3644C500860D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573186232F3644C500860D8F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		573186092F3644C500860D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 573186052F3644C500860D8F /* Filament Tracker Extension (iOS) */;
+			targetProxy = 573186082F3644C500860D8F /* PBXContainerItemProxy */;
+		};
+		573186132F3644C500860D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5731860F2F3644C500860D8F /* Filament Tracker Extension (macOS) */;
+			targetProxy = 573186122F3644C500860D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		573185DB2F3644C400860D8F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573185DC2F3644C400860D8F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		573185EF2F3644C500860D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573185F02F3644C500860D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		573185F22F3644C500860D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573185F32F3644C500860D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573185FE2F3644C500860D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573185FF2F3644C500860D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573186242F3644C500860D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		573186252F3644C500860D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		573186272F3644C500860D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari.Extension";
+				PRODUCT_NAME = "Filament Tracker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		573186282F3644C500860D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari.Extension";
+				PRODUCT_NAME = "Filament Tracker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5731862B2F3644C500860D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari";
+				PRODUCT_NAME = "Filament Tracker";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5731862C2F3644C500860D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari";
+				PRODUCT_NAME = "Filament Tracker";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5731862E2F3644C500860D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari.Extension";
+				PRODUCT_NAME = "Filament Tracker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5731862F2F3644C500860D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari.Extension";
+				PRODUCT_NAME = "Filament Tracker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		573186322F3644C500860D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari";
+				PRODUCT_NAME = "Filament Tracker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		573186332F3644C500860D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Filament Tracker";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filament-tracker.safari";
+				PRODUCT_NAME = "Filament Tracker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573185D82F3644C400860D8F /* Build configuration list for PBXProject "Filament Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573186242F3644C500860D8F /* Debug */,
+				573186252F3644C500860D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573186262F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573186272F3644C500860D8F /* Debug */,
+				573186282F3644C500860D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5731862A2F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5731862B2F3644C500860D8F /* Debug */,
+				5731862C2F3644C500860D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5731862D2F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5731862E2F3644C500860D8F /* Debug */,
+				5731862F2F3644C500860D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573186312F3644C500860D8F /* Build configuration list for PBXNativeTarget "Filament Tracker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573186322F3644C500860D8F /* Debug */,
+				573186332F3644C500860D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573185D52F3644C400860D8F /* Project object */;
+}

@@ -83,9 +83,12 @@ function injectBulkSaleBadges() {
     if (parent.querySelector(".ft-badge")) continue;
 
     const parentEl = parent as HTMLElement;
-    const position = getComputedStyle(parentEl).position;
-    if (position === "static") {
+    const computed = getComputedStyle(parentEl);
+    if (computed.position === "static") {
       parentEl.style.position = "relative";
+    }
+    if (computed.display === "inline") {
+      parentEl.style.display = "block";
     }
 
     const badge = document.createElement("span");
@@ -156,9 +159,12 @@ function injectBadges() {
 
     // Make parent a positioning context if it isn't already
     const parentEl = parent as HTMLElement;
-    const position = getComputedStyle(parentEl).position;
-    if (position === "static") {
+    const computed = getComputedStyle(parentEl);
+    if (computed.position === "static") {
       parentEl.style.position = "relative";
+    }
+    if (computed.display === "inline") {
+      parentEl.style.display = "block";
     }
 
     const badge = document.createElement("span");
