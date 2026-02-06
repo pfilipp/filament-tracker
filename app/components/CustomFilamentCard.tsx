@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import type { StockEntry } from "@/app/lib/types";
 import { getAutoName, getMaterialForSubtype } from "@/app/lib/filament-utils";
-import { BrandOverlay } from "./BrandOverlay";
+import { getImageForColorTag } from "@/app/lib/filament-data";
 import { ColorTagBadge } from "./ColorTagBadge";
 
 interface CustomFilamentCardProps {
@@ -16,6 +17,7 @@ export function CustomFilamentCard({ entry, onClick }: CustomFilamentCardProps) 
   const material = getMaterialForSubtype(subtype);
   const displayName =
     entry.customDisplayName || getAutoName(entry.brand, colorTag, subtype);
+  const imagePath = getImageForColorTag(colorTag);
 
   return (
     <button
@@ -23,14 +25,32 @@ export function CustomFilamentCard({ entry, onClick }: CustomFilamentCardProps) 
       onClick={onClick}
       className="group relative flex flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white text-left transition-shadow hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900"
     >
-      <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-        <span className="text-4xl text-zinc-300 dark:text-zinc-600">?</span>
-        <BrandOverlay brand={entry.brand} />
+      <div className="relative aspect-square w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+        {imagePath ? (
+          <Image
+            src={imagePath}
+            alt={displayName}
+            fill
+            className="object-cover transition-transform group-hover:scale-105"
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+          />
+        ) : (
+          <span className="absolute inset-0 flex items-center justify-center text-4xl text-zinc-300 dark:text-zinc-600">?</span>
+        )}
         {entry.quantity > 0 && (
-          <span className="absolute top-2 right-2 flex h-6 min-w-6 items-center justify-center rounded-full bg-zinc-900 px-1.5 text-xs font-bold text-white dark:bg-zinc-100 dark:text-zinc-900">
+          <span
+            className="flex h-6 min-w-6 items-center justify-center rounded-full bg-zinc-900 px-1.5 text-xs font-bold text-white dark:bg-zinc-100 dark:text-zinc-900"
+            style={{ position: "absolute", top: "0.5rem", right: "0.5rem", zIndex: 10 }}
+          >
             {entry.quantity}
           </span>
         )}
+        <span
+          className="rounded-full bg-black/70 px-2 py-0.5 text-xs text-white backdrop-blur-sm"
+          style={{ position: "absolute", bottom: "0.5rem", right: "0.5rem", zIndex: 10 }}
+        >
+          {entry.brand}
+        </span>
       </div>
       <div className="flex flex-1 flex-col gap-0.5 p-3">
         <span className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
