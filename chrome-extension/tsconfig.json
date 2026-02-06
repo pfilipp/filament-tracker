@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "types": ["chrome"]
+  },
+  "include": ["shared/**/*.ts", "background/**/*.ts", "content/**/*.ts", "popup/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

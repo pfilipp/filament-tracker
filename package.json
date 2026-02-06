@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "scrape": "tsx scripts/scrape-filaments.ts",
-    "download-images": "tsx scripts/download-images.ts"
+    "download-images": "tsx scripts/download-images.ts",
+    "ext:build": "npm --prefix chrome-extension run build"
   },
   "dependencies": {
     "next": "16.1.6",
